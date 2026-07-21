@@ -37,3 +37,16 @@ If the contact email (`yangkj310@gmail.com`) needs to change in the future, do a
 The HTML files use `yangkj310@gmail.com` as the official support email. The App Store review checklist for Awaking required a public HTTPS Privacy Policy URL and Terms of Service URL. This repository satisfies that requirement without requiring a custom domain.
 
 See the main Awaking release-readiness documentation for the full Phase 1 (no IAP) submission plan.
+
+## Zhaoxi isolated Chinese pages
+
+This repository also hosts an isolated, fully Chinese legal and support site for **照惜 (Zhaoxi)**. Awaking's existing root URLs and content remain unchanged.
+
+| Page | URL |
+|---|---|
+| Index / Support | `https://yangkj.github.io/awaking-legal/zhaoxi/` |
+| Privacy Policy | `https://yangkj.github.io/awaking-legal/zhaoxi/privacy-policy.html` |
+| Terms of Service | `https://yangkj.github.io/awaking-legal/zhaoxi/terms-of-service.html` |
+| Technical Support | `https://yangkj.github.io/awaking-legal/zhaoxi/support.html` |
+
+照惜页面位于 `zhaoxi/`，使用独立品牌、产品事实与中文法律文案；不得把 Awaking 的编辑器、Pro、StoreKit、相机或导出声明复制到照惜页面。
