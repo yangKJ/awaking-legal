@@ -16,6 +16,7 @@
 | 页面 | URL |
 |---|---|
 | 官网首页 | `https://yangkj.github.io/awaking-legal/awaking/` |
+| App Store | `https://apps.apple.com/cn/app/awaking/id6760924133` |
 | 技术支持 | `https://yangkj.github.io/awaking-legal/awaking/support.html` |
 | 隐私政策 | `https://yangkj.github.io/awaking-legal/awaking/privacy-policy.html` |
 | 用户协议 | `https://yangkj.github.io/awaking-legal/awaking/terms-of-service.html` |
