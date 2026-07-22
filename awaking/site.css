@@ -328,7 +328,7 @@ button:focus-visible {
 .feature-card:hover img { transform: scale(1.02); }
 
 .feature-overlay {
-  min-height: 188px;
+  min-height: 240px;
   padding: 20px 18px 24px;
 }
 
@@ -547,6 +547,7 @@ button:focus-visible {
   .before-after { padding-block: 72px; }
   .section-heading { grid-template-columns: 1fr; gap: 18px; }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .feature-overlay { min-height: 200px; }
   .workflow-grid { grid-template-columns: 1fr 1fr; }
   .download { grid-template-columns: 1fr; text-align: left; }
   .store-status { justify-self: start; }
@@ -571,6 +572,7 @@ button:focus-visible {
 
 @media (max-width: 440px) {
   .feature-grid { grid-template-columns: 1fr; }
+  .feature-overlay { min-height: 0; }
   .workflow-grid { grid-template-columns: 1fr; }
   .page-toc ol,
   .page-toc ul { grid-template-columns: 1fr; }
