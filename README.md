@@ -20,13 +20,15 @@
 | 隐私政策 | `https://yangkj.github.io/awaking-legal/awaking/privacy-policy.html` |
 | 用户协议 | `https://yangkj.github.io/awaking-legal/awaking/terms-of-service.html` |
 
-历史 Awaking 链接继续保留兼容跳转：
+当前已发布的 Awaking 1.0 继续使用根级历史页面：
 
 - `https://yangkj.github.io/awaking-legal/support.html`
 - `https://yangkj.github.io/awaking-legal/privacy-policy.html`
 - `https://yangkj.github.io/awaking-legal/terms-of-service.html`
 
-旧版本 App 和 App Store Connect 可以继续使用历史链接；后续版本应逐步迁移到 `awaking/` 下的 canonical URL。
+这些页面保留 1.0 的版本说明，并提供前往 1.1.0 新页面的入口。Awaking 1.1.0 的 App、App Store Connect 与发布材料统一使用 `awaking/` 下的 canonical URL。
+
+1.1.0 正式上线后，可以把三个根级历史页面改成到新版页面的永久兼容跳转；为避免已安装旧版本出现断链，不删除这些根级 URL。
 
 ## 照惜页面
 

@@ -32,6 +32,8 @@
     h2 { margin: 9px 0 0; font-size: clamp(30px, 4vw, 48px); letter-spacing: -.04em; }
     .product-copy p { max-width: 440px; margin: 12px 0 0; color: var(--muted); line-height: 1.72; }
     footer { margin-top: 58px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+    .legacy-links { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-bottom: 14px; }
+    .legacy-links a { color: var(--muted); text-underline-offset: 3px; }
     @media (max-width: 720px) { main { width: min(100% - 28px, 1120px); padding-top: 58px; } .product-grid { grid-template-columns: 1fr; } .product-card { min-height: 330px; border-radius: 24px; } }
     @media (prefers-reduced-motion: reduce) { * { transition-duration: .01ms !important; } }
   </style>
@@ -51,7 +53,7 @@
         <div class="product-copy"><span>私人回忆</span><h2>照惜</h2><p>像刷短视频一样重看自己的生活，想决定时再慢慢决定。</p></div>
       </a>
     </div>
-    <footer>© 2026 Awaking &amp; 照惜</footer>
+    <footer><nav class="legacy-links" aria-label="当前已发布版本资料"><span>Awaking 1.0：</span><a href="./support.html">技术支持</a><a href="./privacy-policy.html">隐私政策</a><a href="./terms-of-service.html">用户协议</a></nav>© 2026 Awaking &amp; 照惜</footer>
   </main>
 </body>
 </html>
