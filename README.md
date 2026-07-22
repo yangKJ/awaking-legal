@@ -1,52 +1,44 @@
-# Awaking Legal Pages
+# Awaking 与照惜产品官网
 
-This repository hosts the public legal pages for **Awaking**, an on-device photo editing app for iOS. The pages are served via **GitHub Pages** at the URL below.
+本仓库通过 GitHub Pages 承载两个独立产品的官网、技术支持与法律页面。
 
-## Live URLs ✅
+## 目录与品牌边界
 
-GitHub Pages is enabled for the `master` branch at the repository root. The canonical URLs are:
+| 产品 | 目录 | 官网 |
+|---|---|---|
+| Awaking | `awaking/` | `https://yangkj.github.io/awaking-legal/awaking/` |
+| 照惜 | `zhaoxi/` | `https://yangkj.github.io/awaking-legal/zhaoxi/` |
 
-| Page | URL |
+根目录 `index.html` 是两个产品的统一入口，不承载任何一方的产品事实。两个产品各自维护独立的视觉、文案、功能范围与法律页面，不得交叉复制产品声明。
+
+## Awaking 页面
+
+| 页面 | URL |
 |---|---|
-| Index / Home | `https://yangkj.github.io/awaking-legal/` |
-| Privacy Policy | `https://yangkj.github.io/awaking-legal/privacy-policy.html` |
-| Terms of Service | `https://yangkj.github.io/awaking-legal/terms-of-service.html` |
+| 官网首页 | `https://yangkj.github.io/awaking-legal/awaking/` |
+| 技术支持 | `https://yangkj.github.io/awaking-legal/awaking/support.html` |
+| 隐私政策 | `https://yangkj.github.io/awaking-legal/awaking/privacy-policy.html` |
+| 用户协议 | `https://yangkj.github.io/awaking-legal/awaking/terms-of-service.html` |
 
-These are the URLs to paste into App Store Connect (App Information → Privacy Policy URL) and `MainProject/Awakening/iOS/Info.plist` (`AwakingPrivacyPolicyURL` and `AwakingTermsOfServiceURL`).
+历史 Awaking 链接继续保留兼容跳转：
 
-## Enabling GitHub Pages
+- `https://yangkj.github.io/awaking-legal/support.html`
+- `https://yangkj.github.io/awaking-legal/privacy-policy.html`
+- `https://yangkj.github.io/awaking-legal/terms-of-service.html`
 
-1. Push this repository to GitHub under the name `awaking-legal`.
-2. Repository **Settings → Pages**.
-3. Source: **Deploy from a branch**.
-4. Branch: **master** (not `main`, because this repo uses `master`), folder: **/(root)**.
-5. Save. After ~1 minute, the URLs above will return 200.
+旧版本 App 和 App Store Connect 可以继续使用历史链接；后续版本应逐步迁移到 `awaking/` 下的 canonical URL。
 
-GitHub Pages serves this site over HTTPS automatically. No additional configuration is required.
+## 照惜页面
 
-## Updating the pages
-
-1. Edit `privacy-policy.html` or `terms-of-service.html` in this repository.
-2. Commit and push to `master`.
-3. GitHub Pages redeploys within ~30 seconds.
-
-If the contact email (`yangkj310@gmail.com`) needs to change in the future, do a global find-and-replace across both HTML files.
-
-## Why this repository exists
-
-The HTML files use `yangkj310@gmail.com` as the official support email. The App Store review checklist for Awaking required a public HTTPS Privacy Policy URL and Terms of Service URL. This repository satisfies that requirement without requiring a custom domain.
-
-See the main Awaking release-readiness documentation for the full Phase 1 (no IAP) submission plan.
-
-## Zhaoxi isolated Chinese pages
-
-This repository also hosts an isolated, fully Chinese legal and support site for **照惜 (Zhaoxi)**. Awaking's existing root URLs and content remain unchanged.
-
-| Page | URL |
+| 页面 | URL |
 |---|---|
-| Index / Support | `https://yangkj.github.io/awaking-legal/zhaoxi/` |
-| Privacy Policy | `https://yangkj.github.io/awaking-legal/zhaoxi/privacy-policy.html` |
-| Terms of Service | `https://yangkj.github.io/awaking-legal/zhaoxi/terms-of-service.html` |
-| Technical Support | `https://yangkj.github.io/awaking-legal/zhaoxi/support.html` |
+| 官网首页 | `https://yangkj.github.io/awaking-legal/zhaoxi/` |
+| 技术支持 | `https://yangkj.github.io/awaking-legal/zhaoxi/support.html` |
+| 隐私政策 | `https://yangkj.github.io/awaking-legal/zhaoxi/privacy-policy.html` |
+| 用户协议 | `https://yangkj.github.io/awaking-legal/zhaoxi/terms-of-service.html` |
 
-照惜页面位于 `zhaoxi/`，使用独立品牌、产品事实与中文法律文案；不得把 Awaking 的编辑器、Pro、StoreKit、相机或导出声明复制到照惜页面。
+## 发布
+
+GitHub Pages 从 `master` 分支仓库根目录发布。推送后由 GitHub Pages 自动更新；本地提交不会自动发布。
+
+联系邮箱：`yangkj310@gmail.com`
