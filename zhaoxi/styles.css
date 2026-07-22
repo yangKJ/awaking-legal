@@ -51,17 +51,11 @@ a:focus-visible {
   text-decoration: none;
 }
 
-.brand-mark {
+.brand-icon {
   width: 46px;
   height: 46px;
-  display: grid;
-  place-items: center;
-  border: 5px solid #fff;
-  border-radius: 50%;
-  color: #fff;
-  background: linear-gradient(145deg, #d79a56, #8f5924);
+  border-radius: 22.5%;
   box-shadow: 0 8px 22px var(--shadow), 0 0 0 1px var(--line);
-  font-size: 18px;
 }
 
 .hero {
