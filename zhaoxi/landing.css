@@ -40,7 +40,7 @@ body::before {
 
 a { color: inherit; }
 
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 
 .skip-link {
   position: fixed;
@@ -337,10 +337,10 @@ a:focus-visible {
 .timeline-symbol i:nth-child(3) { bottom: 8%; left: calc(50% - 6px); }
 
 .privacy-band { overflow: hidden; background: #1f1b18; }
-.privacy-inner { min-height: 590px; padding-block: 92px; display: grid; grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr); align-items: center; gap: 90px; }
+.privacy-inner { min-height: 540px; padding-block: 82px; display: grid; grid-template-columns: minmax(220px, 0.52fr) minmax(0, 1.48fr); align-items: center; gap: 70px; }
 .privacy-mark { position: relative; display: grid; place-items: center; }
 .privacy-mark::before { position: absolute; width: 130%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(228, 168, 108, 0.28), transparent 68%); content: ""; }
-.privacy-mark img { position: relative; width: min(100%, 340px); border-radius: 22.5%; box-shadow: 0 35px 90px rgba(0, 0, 0, 0.32); }
+.privacy-mark img { position: relative; width: min(100%, 240px); border-radius: 22.5%; box-shadow: 0 28px 70px rgba(0, 0, 0, 0.3); }
 .privacy-copy { color: #fff8f1; }
 .privacy-copy .section-kicker { color: #e4a86c; }
 .privacy-copy > p:not(.section-kicker) { max-width: 690px; margin: 24px 0 0; color: rgba(255, 248, 241, 0.7); font-size: 18px; line-height: 1.85; }
@@ -390,7 +390,7 @@ a:focus-visible {
   .feature-primary { min-height: 570px; grid-row: auto; }
   .immersive-inner { grid-template-columns: minmax(0, 1fr) minmax(280px, 0.7fr); gap: 48px; }
   .today-showcase { gap: 64px; }
-  .privacy-inner { grid-template-columns: 0.72fr 1.28fr; gap: 50px; }
+  .privacy-inner { grid-template-columns: minmax(200px, 0.52fr) minmax(0, 1.48fr); gap: 44px; }
   .pro { gap: 64px; }
 }
 
