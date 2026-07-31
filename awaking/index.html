@@ -3,26 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Awaking 是面向 iPhone 与 iPad 的专业本地图像编辑器，提供实时预览、丰富滤镜与预设、调色、局部蒙版、基础构图、智能拼接、美学对比、作品展台和无水印导出。" />
+  <meta name="description" content="Awaking 是面向 iPhone 与 iPad 的专业本地图像编辑器：用蒙版精确控制局部风格，在回忆流中重新发现旧照片，并将 2–9 张重叠画面智能拼成连续视野。核心图像处理在设备上完成。" />
   <meta name="theme-color" content="#050706" />
   <meta name="apple-itunes-app" content="app-id=6760924133" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_CN" />
   <meta property="og:site_name" content="Awaking" />
-  <meta property="og:title" content="Awaking · 把一张照片，做成你的作品" />
-  <meta property="og:description" content="在设备本地完成风格预设、滤镜、调色、局部蒙版与构图，并支持智能拼接、美学对比、作品展台和无水印导出。" />
+  <meta property="og:title" content="Awaking · 让照片重新被看见，也重新被完成" />
+  <meta property="og:description" content="把风格落到该改变的位置，让旧照片重新进入创作，再把相邻视野接成一张连续画面。" />
   <meta property="og:url" content="https://yangkj.github.io/awaking-legal/awaking/" />
-  <meta property="og:image" content="https://yangkj.github.io/awaking-legal/awaking/assets/showcase-before-after.jpg" />
+  <meta property="og:image" content="https://yangkj.github.io/awaking-legal/awaking/assets/og-awaking.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Awaking 产品视觉：同一张照片以原图与不同风格重新表达" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Awaking · 把一张照片，做成你的作品" />
-  <meta name="twitter:description" content="专业、本地、可控的图像编辑体验。" />
-  <meta name="twitter:image" content="https://yangkj.github.io/awaking-legal/awaking/assets/showcase-before-after.jpg" />
+  <meta name="twitter:title" content="Awaking · 让照片重新被看见，也重新被完成" />
+  <meta name="twitter:description" content="精确控制局部、重新发现旧照片、拼接连续视野——一条专业且可控的本地照片创作路径。" />
+  <meta name="twitter:image" content="https://yangkj.github.io/awaking-legal/awaking/assets/og-awaking.png" />
+  <meta name="twitter:image:alt" content="Awaking 产品视觉：同一张照片以原图与不同风格重新表达" />
   <link rel="canonical" href="https://yangkj.github.io/awaking-legal/awaking/" />
-  <link rel="icon" type="image/png" href="./assets/app-icon.png" />
-  <link rel="apple-touch-icon" href="./assets/app-icon.png" />
-  <link rel="preload" href="./assets/showcase-editor.jpg" as="image" />
+  <link rel="icon" type="image/png" href="./assets/app-icon-192.png" />
+  <link rel="apple-touch-icon" href="./assets/app-icon-192.png" />
+  <link rel="preload" href="./assets/00-hero-1080.webp" as="image" type="image/webp" />
   <title>Awaking · 专业本地图像编辑器</title>
   <link rel="stylesheet" href="./site.css" />
+  <link rel="stylesheet" href="./home.css" />
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -30,180 +35,416 @@
       "name": "Awaking",
       "applicationCategory": "PhotoApplication",
       "operatingSystem": "iOS, iPadOS",
-      "description": "Awaking 是面向 iPhone 与 iPad 的专业本地图像编辑器，提供实时预览、丰富滤镜与预设、调色、局部蒙版、基础构图、智能拼接、美学对比、作品展台和无水印导出。",
+      "description": "Awaking 是面向 iPhone 与 iPad 的专业本地图像编辑器：用蒙版精确控制局部风格，在回忆流中重新发现旧照片，并将 2–9 张重叠画面智能拼成连续视野。核心图像处理在设备上完成。",
+      "featureList": [
+        "用形状、渐变和自由套索划定局部区域，分别控制滤镜与强度",
+        "在设备本地浏览已授权照片，试穿推荐风格并继续编辑",
+        "将 2–9 张同场景重叠照片自动对齐并拼接为连续画面"
+      ],
       "url": "https://yangkj.github.io/awaking-legal/awaking/",
       "downloadUrl": "https://apps.apple.com/cn/app/awaking/id6760924133"
     }
   </script>
 </head>
-<body>
+<body class="home-page">
   <a class="skip-link" href="#main-content">跳到主要内容</a>
+
   <header class="site-header">
     <div class="nav-shell">
       <a class="brand" href="#top" aria-label="返回 Awaking 官网首页">
-        <img class="brand-icon" src="./assets/app-icon.png" alt="" width="48" height="48" />
-        <span class="brand-copy"><strong>Awaking</strong><small>On-device studio</small></span>
+        <img class="brand-icon" src="./assets/app-icon-192.png" alt="" width="48" height="48" />
+        <span class="brand-copy"><strong>Awaking</strong><small lang="en">On-device studio</small></span>
       </a>
       <nav class="site-nav" aria-label="网站导航">
-        <a href="#capabilities">专业能力</a>
-        <a href="#workflow">创作流程</a>
+        <a href="#core">三大核心</a>
+        <a href="#mask-design">蒙版设计</a>
+        <a href="#memory-flow">回忆流</a>
+        <a href="#smart-stitch">智能拼接</a>
         <a href="#privacy">本地处理</a>
         <a href="./support.html">支持</a>
-        <a class="nav-cta" href="https://apps.apple.com/cn/app/awaking/id6760924133" target="_blank" rel="noopener noreferrer" aria-label="在 App Store 查看 Awaking">App Store</a>
+        <a class="nav-cta" href="https://apps.apple.com/cn/app/awaking/id6760924133" target="_blank" rel="noopener noreferrer">
+          App Store<span class="sr-only">（在新窗口打开）</span>
+        </a>
       </nav>
     </div>
   </header>
 
-  <main id="main-content">
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow">Professional on-device editor · iPhone &amp; iPad</p>
-        <h1>把一张照片，<br />做成你的<em>作品</em>。</h1>
-        <p class="hero-lead">从一张照片开始，用实时预览建立风格，以丰富滤镜、预设与调色打磨影调，再用局部蒙版和构图精确收束画面；完成后无水印保存或分享。</p>
+  <main id="main-content" tabindex="-1">
+    <section class="landing-hero section-shell" id="top" aria-labelledby="hero-title">
+      <div class="landing-hero-copy">
+        <p class="eyebrow" lang="en">Professional on-device photo editor · iPhone &amp; iPad</p>
+        <h1 id="hero-title">让照片重新被看见，<br /><em>也重新被完成。</em></h1>
+        <p class="landing-hero-lead">不只为整张照片套一种风格。Awaking 让你精确控制局部、重新发现值得继续的旧照片，也把相邻视野接成更完整的画面。核心图像处理在设备本地完成。</p>
         <div class="hero-actions">
-          <a class="primary-button" href="#capabilities">查看专业编辑能力</a>
-          <a class="secondary-button" href="./support.html">使用与技术支持</a>
+          <a class="primary-button" href="https://apps.apple.com/cn/app/awaking/id6760924133" target="_blank" rel="noopener noreferrer">
+            在 App Store 获取 Awaking<span aria-hidden="true">↗</span><span class="sr-only">（在新窗口打开）</span>
+          </a>
+          <a class="secondary-button" href="#core">认识三大核心</a>
         </div>
-        <p class="release-note"><a href="https://apps.apple.com/cn/app/awaking/id6760924133" target="_blank" rel="noopener noreferrer">已在 App Store 上线 · <span data-app-version>查看最新版本</span> · 适用于 iPhone 与 iPad</a></p>
-        <ul class="trust-list" aria-label="Awaking 当前版本特点">
-          <li>核心图像处理在设备本地完成</li>
-          <li>无需注册即可开始编辑</li>
-          <li>标准导出不添加水印</li>
+        <p class="store-note">已在 App Store 提供 · 适用于 iPhone 与 iPad · 当前功能与兼容性以产品页为准</p>
+        <ul class="hero-proof" role="list" aria-label="Awaking 三大核心">
+          <li><span aria-hidden="true">01</span><strong>蒙版设计</strong></li>
+          <li><span aria-hidden="true">02</span><strong>回忆流</strong></li>
+          <li><span aria-hidden="true">03</span><strong>智能拼接</strong></li>
         </ul>
       </div>
 
-      <div class="hero-visual" aria-label="Awaking 产品视觉展示">
-        <div class="visual-glow" aria-hidden="true"></div>
-        <figure class="showcase-frame hero-frame-back">
-          <img src="./assets/showcase-before-after.jpg" alt="Awaking 原图与风格成片的视觉对照展示" width="832" height="1800" />
+      <div class="hero-stage" aria-label="Awaking 真实产品视觉">
+        <figure class="hero-card hero-card-back">
+          <picture>
+            <source srcset="./assets/05c-mask-alt-1080.webp" type="image/webp" />
+            <img src="./assets/05c-mask-alt-1284x2778.png" alt="Awaking 编辑器中多个几何蒙版叠加在黑白绿色玩偶画面上，当前矩形蒙版显示边界与控制点" width="1284" height="2778" decoding="async" />
+          </picture>
         </figure>
-        <figure class="showcase-frame hero-frame-main">
-          <img src="./assets/showcase-editor.jpg" alt="Awaking 编辑器视觉展示，画面中可见实时预览、滤镜和强度控制" width="832" height="1800" fetchpriority="high" />
+        <figure class="hero-card hero-card-front">
+          <picture>
+            <source srcset="./assets/00-hero-1080.webp" type="image/webp" />
+            <img src="./assets/00-hero-1284x2778.png" alt="宣传海报将同一室内玩偶照片的原图与黑白绿色成片并列展示，用于说明风格前后差异" width="1284" height="2778" fetchpriority="high" decoding="async" />
+          </picture>
         </figure>
-        <span class="visual-label">基于当前公开能力的产品界面展示</span>
+        <span class="hero-stage-label">来自 Awaking 的真实产品界面</span>
       </div>
     </section>
 
-    <section class="statement section-shell" aria-labelledby="statement-title">
-      <p class="section-kicker">Professional mobile workflow</p>
-      <h2 id="statement-title">先看见变化，<br />再决定下一步。</h2>
-      <p>主编辑器把预设、滤镜、调色、蒙版与构图组织在同一个创作现场，并用原图对照、撤销与重做保持过程清楚。智能拼接与双图美学对比作为独立工具，结果继续回到展台管理。</p>
+    <section class="proof-band" aria-label="Awaking 产品主张">
+      <div class="proof-band-inner section-shell">
+        <p><strong>重新看见，是发现一张照片仍值得继续；重新完成，是让每一次选择都落到画面里。</strong></p>
+        <a href="#core">从三大核心开始<span aria-hidden="true">↓</span></a>
+      </div>
     </section>
 
-    <section class="before-after" aria-labelledby="before-after-title">
-      <div class="before-after-inner section-shell">
-        <div class="before-after-copy">
-          <p class="section-kicker">Original / Final</p>
-          <h2 id="before-after-title">大胆建立风格，<br />细致保留控制。</h2>
-          <p>先用预设与滤镜确定方向，再以强度、调色、局部蒙版和构图逐步收束；需要比较时，按住画面即可回看原图。</p>
-          <ul class="capability-list">
-            <li><strong>滤镜与预设</strong>精选风格快速定调，分类滤镜与强度控制继续细调</li>
-            <li><strong>局部蒙版</strong>用形状、渐变、自由套索或导入图像限定效果区域</li>
-            <li><strong>调色与构图</strong>从光影、色彩到画幅、旋转与拉直，逐项完成画面</li>
-          </ul>
+    <section class="core-overview section-shell" id="core" aria-labelledby="core-title">
+      <div class="core-heading">
+        <p class="section-kicker"><span lang="en" aria-hidden="true">01 / Core</span> · 三大核心</p>
+        <h2 id="core-title">不是堆叠工具，<br />而是完成照片的三种方式。</h2>
+        <p>它们对应三种真实需求：控制画面中的局部、重新发现旧照片，以及扩展单张照片容纳不了的视野。各自独立，也共同指向更完整的作品。</p>
+      </div>
+      <ol class="core-grid" role="list">
+        <li>
+          <span class="core-index" aria-hidden="true">01</span>
+          <h3>蒙版设计</h3>
+          <p>用形状、渐变与自由套索划定区域，让滤镜、调色和强度只作用在需要的位置。</p>
+          <a href="#mask-design">了解局部控制<span aria-hidden="true">↘</span></a>
+        </li>
+        <li>
+          <span class="core-index" aria-hidden="true">02</span>
+          <h3>回忆流</h3>
+          <p>在设备本地重新浏览已授权的照片，试穿推荐风格，再决定加入灵感或继续编辑。</p>
+          <a href="#memory-flow">重新遇见旧照片<span aria-hidden="true">↘</span></a>
+        </li>
+        <li>
+          <span class="core-index" aria-hidden="true">03</span>
+          <h3>智能拼接</h3>
+          <p>把 2–9 张同场景、彼此重叠的照片自动对齐，接成一张更连续、更完整的画面。</p>
+          <a href="#smart-stitch">查看素材条件<span aria-hidden="true">↘</span></a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="story-section story-section-dark mask-story" id="mask-design" aria-labelledby="mask-title">
+      <div class="section-shell">
+        <div class="story-heading">
+          <div>
+            <p class="section-kicker"><span lang="en" aria-hidden="true">02 / Mask</span> · 蒙版设计</p>
+            <h2 id="mask-title">先建立区域，<br />再决定这里如何改变。</h2>
+          </div>
+          <p>真正的局部控制，始于知道哪里该改变。用形状快速框定边界，用渐变建立自然过渡，用自由套索贴近不规则轮廓；随后把滤镜、调色与强度留在选区内。</p>
         </div>
-        <figure class="portrait-card">
-          <img src="./assets/showcase-before-after.jpg" alt="Awaking 风格成片前后对照的产品视觉" loading="lazy" width="832" height="1800" />
-        </figure>
-      </div>
-    </section>
 
-    <section class="memory-flow" id="memory-flow" aria-labelledby="memory-flow-title">
-      <div class="memory-flow-inner section-shell">
-        <figure class="memory-flow-visual">
-          <img src="./assets/showcase-memory-flow.webp" alt="Awaking 回忆流产品视觉，展示旧照片浏览、推荐风格试穿与进入编辑" loading="lazy" decoding="async" width="1290" height="2796" />
-          <figcaption>基于当前公开能力的回忆流视觉展示</figcaption>
-        </figure>
-        <div class="memory-flow-copy">
-          <p class="section-kicker">Memory flow · rediscover locally</p>
-          <h2 id="memory-flow-title">让旧照片，<br />重新成为创作的起点。</h2>
-          <p>回忆流在设备本地浏览你已授权的照片，并为当前画面呈现一组可试穿的推荐风格。遇到值得继续的瞬间，可以加入灵感，或带着当前方向进入主编辑器继续精修。</p>
-          <ol class="memory-flow-steps">
-            <li><span>01</span><div><strong>重遇旧照片</strong><small>沿着回忆流浏览已授权的照片，让被忘在相册里的画面重新出现。</small></div></li>
-            <li><span>02</span><div><strong>先试穿，再决定</strong><small>直接比较推荐风格与原图，不必先进入完整编辑流程。</small></div></li>
-            <li><span>03</span><div><strong>带着灵感继续编辑</strong><small>收藏值得保留的瞬间，或把选定方向带入编辑器继续完成作品。</small></div></li>
-          </ol>
-        </div>
-      </div>
-    </section>
+        <div class="mask-layout">
+          <div class="mask-copy">
+            <h3>多个蒙版，也要保持关系清楚。</h3>
+            <p>一张照片往往不只有一个重点。前景、背景与光影可以分别建立蒙版，各自显示或隐藏、锁定并调整顺序。效果落在哪里、彼此如何叠加，始终清楚可控。</p>
+            <ol class="mask-capabilities" role="list">
+              <li><span aria-hidden="true">01</span><div><strong>建立区域</strong><p>按画面结构选择形状、渐变或自由套索。</p></div></li>
+              <li><span aria-hidden="true">02</span><div><strong>局部调整</strong><p>分别控制选区内的滤镜、调色与强度。</p></div></li>
+              <li><span aria-hidden="true">03</span><div><strong>管理关系</strong><p>显示、锁定并整理多个蒙版的先后关系。</p></div></li>
+            </ol>
+          </div>
 
-    <section class="capabilities section-shell" id="capabilities" aria-labelledby="capabilities-title">
-      <div class="section-heading">
-        <div>
-          <p class="section-kicker">Professional editing capabilities</p>
-          <h2 id="capabilities-title">一条清晰、可回看的本地修图路径</h2>
-        </div>
-        <p>从整体风格到局部控制，每项能力都围绕同一张作品展开；这里呈现的是当前公开版本中真实可用的创作路径。</p>
-      </div>
-
-      <div class="feature-grid">
-        <article class="feature-card">
-          <div class="feature-visual"><img src="./assets/showcase-editor.jpg" alt="Awaking 编辑器中的实时预览与滤镜控制视觉" loading="lazy" width="832" height="1800" /></div>
-          <div class="feature-overlay"><span>01 · 实时预览</span><h3>每次调整，都在画面中回应</h3><p>滤镜、调色与蒙版变化同步更新预览；按住查看原图，撤销或重做随时回到合适一步。</p></div>
-        </article>
-        <article class="feature-card">
-          <div class="feature-visual"><img src="./assets/showcase-mask.jpg" alt="Awaking 局部蒙版控制的产品视觉" loading="lazy" width="832" height="1800" /></div>
-          <div class="feature-overlay"><span>02 · 局部蒙版</span><h3>把效果放到该在的位置</h3><p>用形状、渐变、自由套索或导入蒙版建立选区，多个局部区域仍可继续编辑与组合。</p></div>
-        </article>
-        <article class="feature-card">
-          <div class="feature-visual"><img src="./assets/showcase-filter.png" alt="Awaking 预设模板页，展示多种复古、直闪与夜景滤镜风格" loading="lazy" width="1284" height="2778" /></div>
-          <div class="feature-overlay"><span>03 · 滤镜与预设</span><h3>海量滤镜可供选择</h3><p>从胶片、直闪、夜景到纪实风格，先用精选预设快速定调，再继续调整滤镜强度与色彩。</p></div>
-        </article>
-        <article class="feature-card">
-          <div class="feature-visual"><img src="./assets/showcase-booth.jpg" alt="Awaking 展台中统一管理草稿、蒙版和成片的产品视觉" loading="lazy" width="832" height="1800" /></div>
-          <div class="feature-overlay"><span>04 · 作品展台</span><h3>草稿、成片与专项结果，回到一处</h3><p>集中管理编辑草稿、导出成片、智能拼接与美学对比结果；随时回看，也能继续编辑。</p></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="workflow section-shell" id="workflow" aria-labelledby="workflow-title">
-      <p class="section-kicker">A controlled workflow</p>
-      <div class="section-heading">
-        <h2 id="workflow-title">从导入到成片，<br />始终保持可控。</h2>
-        <p>完成单图编辑之外，还可以用 2–9 张具有重叠内容的照片完成智能拼接，或通过六维美学对比获得创作参考。</p>
-      </div>
-      <div class="workflow-grid">
-        <article class="workflow-step"><h3>选择照片</h3><p>从系统照片库选择图片，或拍摄后直接进入编辑。</p></article>
-        <article class="workflow-step"><h3>建立方向</h3><p>从精选预设、分类滤镜与强度控制开始确定整体风格。</p></article>
-        <article class="workflow-step"><h3>精细收束</h3><p>继续完成调色、基础构图与可编辑局部蒙版，并随时对照原图。</p></article>
-        <article class="workflow-step"><h3>输出与归档</h3><p>无水印保存到系统相册或分享，并把草稿、成片与专项结果归档到展台。</p></article>
-      </div>
-    </section>
-
-    <section class="privacy-band" id="privacy" aria-labelledby="privacy-title">
-      <div class="privacy-inner section-shell">
-        <div class="privacy-mark" aria-hidden="true"><img src="./assets/app-icon.png" alt="" loading="lazy" width="1024" height="1024" /></div>
-        <div class="privacy-copy">
-          <p class="section-kicker">On-device by design</p>
-          <h2 id="privacy-title">照片处理在设备上完成，<br />不用先交出作品。</h2>
-          <p>Awaking 无需注册账号。图片分析、滤镜、调色、蒙版、美学评分与导出渲染都在设备本地完成，也不会把照片上传到我们的服务器。保存、分享或 iCloud 同步仍由你选择的系统能力与设置决定。</p>
-          <div class="privacy-links">
-            <a class="primary-button" href="./privacy-policy.html">阅读隐私政策</a>
-            <a class="secondary-button" href="./support.html">查看技术支持</a>
+          <div class="mask-gallery" aria-label="Awaking 蒙版编辑界面">
+            <figure class="editorial-poster mask-shot">
+              <div class="mask-shot-crop mask-shot-crop-bottom-ui">
+                <picture>
+                  <source srcset="./assets/05a-mask-focus-1080.webp" type="image/webp" />
+                  <img src="./assets/05a-mask-focus-1284x2778.png" alt="Awaking 蒙版编辑界面，照片上显示可调整的矩形区域边界，下方提供基础形状、渐变蒙版和自由套索入口" width="1284" height="2778" loading="lazy" decoding="async" />
+                </picture>
+              </div>
+              <figcaption><span>建立区域</span><strong>按画面结构划定效果范围</strong></figcaption>
+            </figure>
+            <figure class="editorial-poster mask-shot">
+              <div class="mask-shot-crop mask-shot-crop-bottom-ui">
+                <picture>
+                  <source srcset="./assets/05b-local-style-1080.webp" type="image/webp" />
+                  <img src="./assets/05b-local-style-1284x2778.png" alt="Awaking 局部滤镜界面，矩形蒙版限定滑板照片区域，下方显示滤镜分类、缩略图和强度控制" width="1284" height="2778" loading="lazy" decoding="async" />
+                </picture>
+              </div>
+              <figcaption><span>局部风格</span><strong>让滤镜、调色与强度留在选区内</strong></figcaption>
+            </figure>
+            <figure class="editorial-poster mask-shot">
+              <div class="mask-shot-crop mask-shot-crop-bottom-tools">
+                <picture>
+                  <source srcset="./assets/05c-mask-alt-1080.webp" type="image/webp" />
+                  <img src="./assets/05c-mask-alt-1284x2778.png" alt="Awaking 编辑器中多个几何蒙版叠加在黑白绿色玩偶画面上，当前矩形蒙版显示边界与控制点" width="1284" height="2778" loading="lazy" decoding="async" />
+                </picture>
+              </div>
+              <figcaption><span>多蒙版关系</span><strong>分别显示、锁定并整理先后关系</strong></figcaption>
+            </figure>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="download section-shell" id="download" aria-labelledby="download-title">
-      <img src="./assets/app-icon.png" alt="Awaking App 图标" width="92" height="92" loading="lazy" />
-      <div class="download-copy">
-        <p class="section-kicker">Awaking · for iPhone &amp; iPad</p>
-        <h2 id="download-title">把下一张照片，做得更像你的作品。</h2>
-        <p>Awaking 已在 App Store 上线。<span data-app-version-copy>前往产品页即可查看最新版本与可用功能。</span></p>
+    <section class="memory-story section-shell" id="memory-flow" aria-labelledby="memory-title">
+      <div class="memory-copy">
+        <p class="section-kicker"><span lang="en" aria-hidden="true">03 / Rediscover</span> · 回忆流</p>
+        <h2 id="memory-title">让旧照片重新出现，<br />但决定权始终在你。</h2>
+        <p>回忆流只浏览你已通过系统授权的照片，并兼顾时间跨度、近期浏览与画面多样性，让不同阶段的旧画面再次来到眼前。它不会因为浏览而整理或改动系统相册。</p>
+        <p>看到照片之后，再决定要不要继续。你可以对照原图、试穿按画面特征推荐的风格、加入灵感，或带着选定方向进入编辑器。推荐只是起点，选择始终留给你。</p>
+        <ul class="memory-points" role="list">
+          <li><strong>本地浏览</strong><span>只浏览系统授权范围内的照片。</span></li>
+          <li><strong>先看再试</strong><span>保留原图对照，再试穿推荐方向。</span></li>
+          <li><strong>选择在你</strong><span>加入灵感，或带着当前方向继续编辑。</span></li>
+        </ul>
       </div>
-      <a class="store-status" href="https://apps.apple.com/cn/app/awaking/id6760924133" target="_blank" rel="noopener noreferrer">前往 App Store 查看与下载 <span aria-hidden="true">↗</span></a>
+
+      <div class="memory-gallery" aria-label="Awaking 回忆流与继续编辑界面">
+        <figure class="editorial-poster memory-poster">
+          <picture>
+            <source srcset="./assets/01-home-1080.webp" type="image/webp" />
+            <img src="./assets/01-home-1284x2778.png" alt="Awaking 产品首页，显示蒙版设计、回忆流、创作入口和灵感卡片" width="1284" height="2778" loading="lazy" decoding="async" />
+          </picture>
+          <figcaption><span>回忆入口</span><strong>让值得继续的照片再次出现</strong></figcaption>
+        </figure>
+        <figure class="editorial-poster memory-poster">
+          <picture>
+            <source srcset="./assets/02-memory-flow-1080.webp" type="image/webp" />
+            <img src="./assets/02-memory-flow-1284x2778.png" alt="Awaking 回忆流界面，显示一张旧滑板照片、拍摄日期、加入灵感、试穿推荐和进入编辑入口" width="1284" height="2778" loading="lazy" decoding="async" />
+          </picture>
+          <figcaption><span>重新遇见</span><strong>先看见照片，再决定风格方向</strong></figcaption>
+        </figure>
+        <figure class="editorial-poster memory-poster">
+          <picture>
+            <source srcset="./assets/03b-filter-alt-1080.webp" type="image/webp" />
+            <img src="./assets/03b-filter-alt-1284x2778.png" alt="Awaking 滤镜编辑界面，紫色照片预览下方显示滤镜分类、缩略图和强度滑杆" width="1284" height="2778" loading="lazy" decoding="async" />
+          </picture>
+          <figcaption><span>继续编辑</span><strong>把选定方向带入完整编辑流程</strong></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="creation-band" aria-labelledby="creation-band-title">
+      <div class="section-shell">
+        <div class="creation-band-heading">
+          <p class="section-kicker"><span lang="en" aria-hidden="true">04 / Continue</span> · 连续创作</p>
+          <h2 id="creation-band-title">从重新遇见，到收回作品。</h2>
+        </div>
+        <ol class="creation-band-list" role="list">
+          <li>
+            <article>
+              <div class="creation-band-copy">
+                <span aria-hidden="true">01</span>
+                <h3>浏览滤镜</h3>
+                <p>在推荐、免费、最近与收藏等分类之间浏览，先看画面变化，再选出适合这张照片的风格方向。</p>
+              </div>
+              <figure>
+                <picture>
+                  <source srcset="./assets/04-presets-1080.webp" type="image/webp" />
+                  <img src="./assets/04-presets-1284x2778.png" alt="Awaking 风格预设界面，按推荐、最近、收藏和免费等分类展示多款滤镜效果卡片" width="1284" height="2778" loading="lazy" decoding="async" />
+                </picture>
+                <figcaption>按分类比较滤镜，先预览再应用</figcaption>
+              </figure>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="creation-band-copy">
+                <span aria-hidden="true">02</span>
+                <h3>调整分寸</h3>
+                <p>风格不是越强越好。通过强度与双滤镜叠加，让画面情绪和原有质感保持平衡。</p>
+              </div>
+              <figure>
+                <picture>
+                  <source srcset="./assets/03a-filter-stack-1080.webp" type="image/webp" />
+                  <img src="./assets/03a-filter-stack-1284x2778.png" alt="Awaking 滤镜编辑界面，照片预览下方显示双滤镜叠加、强度滑杆、分类与滤镜缩略图" width="1284" height="2778" loading="lazy" decoding="async" />
+                </picture>
+                <figcaption>叠加两种风格，分别把握强度</figcaption>
+              </figure>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="creation-band-copy">
+                <span aria-hidden="true">03</span>
+                <h3>局部深化</h3>
+                <p>把主体、背景与光影分开处理，让每个区域只承担它需要的变化。</p>
+              </div>
+              <figure>
+                <picture>
+                  <source srcset="./assets/05a-mask-focus-1080.webp" type="image/webp" />
+                  <img src="./assets/05a-mask-focus-1284x2778.png" alt="Awaking 蒙版编辑界面，滑板照片上显示可调整的矩形蒙版边界与控制点，下方提供基础形状、渐变蒙版与自由套索入口" width="1284" height="2778" loading="lazy" decoding="async" />
+                </picture>
+                <figcaption>划定局部，让变化停在需要的位置</figcaption>
+              </figure>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="creation-band-copy">
+                <span aria-hidden="true">04</span>
+                <h3>收回作品</h3>
+                <p>把草稿与成片收进作品展台，之后继续查看、整理或导出。</p>
+              </div>
+              <figure>
+                <picture>
+                  <source srcset="./assets/07-booth-current-1080.webp" type="image/webp" />
+                  <img src="./assets/07-booth-current-1284x2778.png" alt="Awaking 作品展台界面，显示置顶作品、搜索、分类和作品陈列" width="1284" height="2778" loading="lazy" decoding="async" />
+                </picture>
+                <figcaption>让草稿与成片回到作品展台</figcaption>
+              </figure>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="story-section story-section-dark stitch-story" id="smart-stitch" aria-labelledby="stitch-title">
+      <div class="section-shell">
+        <div class="story-heading">
+          <div>
+            <p class="section-kicker"><span lang="en" aria-hidden="true">05 / Stitch</span> · 智能拼接</p>
+            <h2 id="stitch-title">把同一场景的相邻视野，<br />接成一张连续画面。</h2>
+          </div>
+          <p>选择 2–9 张同一场景且相邻画面清晰重叠的照片，按拍摄方向确认顺序；需要时反转整组，再由 Awaking 寻找重叠关系、自动对齐并拼接。</p>
+        </div>
+
+        <div class="stitch-layout">
+          <div class="stitch-copy">
+            <h3>它延展连续视野，不负责随意拼贴。</h3>
+            <p>拼接完成后可自动裁掉部分空白边缘，并放大检查接缝与画面边界。确认后保存到系统相册，同时将结果收进作品展台；素材重叠不足时，自动对齐可能失败。</p>
+            <ol class="stitch-criteria" role="list">
+              <li><span aria-hidden="true">01</span><div><strong>准备素材</strong><p>2–9 张同场景、彼此重叠的照片。</p></div></li>
+              <li><span aria-hidden="true">02</span><div><strong>确认顺序</strong><p>按拍摄方向排列，必要时反转整组顺序。</p></div></li>
+              <li><span aria-hidden="true">03</span><div><strong>对齐拼接</strong><p>寻找相邻重叠关系，并按需自动裁边。</p></div></li>
+              <li><span aria-hidden="true">04</span><div><strong>预览保存</strong><p>确认后保存到相册，并收进作品展台。</p></div></li>
+            </ol>
+          </div>
+
+          <div class="stitch-gallery" role="group" aria-label="Awaking 智能拼接开始与完成的真实界面对照">
+            <figure class="stitch-shot">
+              <picture>
+                <source srcset="./assets/joint-begin-1080.webp" type="image/webp" />
+                <img src="./assets/joint-begin.png" alt="Awaking 智能拼接开始界面：两张相邻画面已就绪，可调整顺序并开始智能拼接" width="1206" height="2622" loading="lazy" decoding="async" />
+              </picture>
+              <figcaption>
+                <span>01 / 开始拼接</span>
+                <strong>先确认素材与画面顺序</strong>
+                <p>2–9 张相邻照片准备就绪后，再让 Awaking 寻找重叠关系。</p>
+              </figcaption>
+            </figure>
+            <figure class="stitch-shot">
+              <picture>
+                <source srcset="./assets/joint-after-1080.webp" type="image/webp" />
+                <img src="./assets/joint-after.png" alt="Awaking 智能拼接完成界面：两张相邻照片已经拼接成一张完整连续画面，可保存到相册" width="1206" height="2622" loading="lazy" decoding="async" />
+              </picture>
+              <figcaption>
+                <span>02 / 拼接完成</span>
+                <strong>检查接缝与边缘，再保存成片</strong>
+                <p>放大检查接缝与边缘，确认后保存并收进作品展台。</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="completion-strip section-shell" id="finish" aria-labelledby="finish-title">
+      <div class="completion-heading">
+        <p class="section-kicker"><span lang="en" aria-hidden="true">06 / Finish</span> · 完成链路</p>
+        <h2 id="finish-title">创作有过程，<br />作品有去处。</h2>
+        <p>从整体风格到局部控制，Awaking 让每一步可以回看，也让草稿与成片继续被整理、保存与导出。</p>
+      </div>
+      <ol class="completion-steps" role="list">
+        <li><span aria-hidden="true">01</span><div><h3>滤镜</h3><p>建立整体风格，再细调强度。</p></div></li>
+        <li><span aria-hidden="true">02</span><div><h3>撤销历史</h3><p>回看步骤，随时撤销或重做。</p></div></li>
+        <li><span aria-hidden="true">03</span><div><h3>作品展台</h3><p>把草稿与成片集中收存。</p></div></li>
+        <li><span aria-hidden="true">04</span><div><h3>标准导出</h3><p>不叠加品牌水印，保留你的表达。</p></div></li>
+      </ol>
+    </section>
+
+    <section class="privacy-story" id="privacy" aria-labelledby="privacy-title">
+      <div class="privacy-story-inner section-shell">
+        <div class="privacy-story-copy">
+          <p class="section-kicker"><span lang="en">On-device by design</span> · 本地处理</p>
+          <h2 id="privacy-title">本地处理是产品结构，<br />不是附加口号。</h2>
+          <p>Awaking 的核心图像分析、编辑与导出在设备上完成，不要求先注册账号。当前版本不会把用户照片、蒙版或导出结果上传到我们的服务器；照片访问、保存与分享都由你通过系统能力主动选择。</p>
+          <ul class="privacy-facts" role="list">
+            <li>授权范围由你选择</li>
+            <li>保存或分享由你发起</li>
+            <li>作品与编辑结果由你保留</li>
+          </ul>
+          <div class="privacy-actions">
+            <a class="primary-button" href="./privacy-policy.html">阅读隐私政策</a>
+            <a class="secondary-button" href="./support.html">查看技术支持</a>
+          </div>
+        </div>
+        <div class="privacy-symbol" aria-hidden="true">
+          <img src="./assets/app-icon-192.png" alt="" width="192" height="192" loading="lazy" decoding="async" />
+          <span>LOCAL</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section-shell" aria-labelledby="faq-title">
+      <div class="faq-heading">
+        <p class="section-kicker"><span lang="en">Before you start</span> · 开始之前</p>
+        <h2 id="faq-title">下载前，先把重要问题说清楚。</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>当前版本与兼容性在哪里看？</summary>
+          <p>官网不硬编码版本号；当前版本、系统要求与可用功能一律以 App Store 产品页为准。</p>
+        </details>
+        <details>
+          <summary>编辑时会上传我的照片吗？</summary>
+          <p>不会。当前版本的核心图像分析、编辑和导出在设备本地完成，不会把用户照片、蒙版或导出结果上传到我们的服务器。完整边界请阅读隐私政策。</p>
+        </details>
+        <details>
+          <summary>需要注册账号吗？</summary>
+          <p>不需要。下载安装后即可从系统照片库选择图片并开始创作。</p>
+        </details>
+        <details>
+          <summary>哪些照片适合智能拼接？</summary>
+          <p>请选择 2–9 张同一场景、相邻画面具有清晰重叠的照片。智能拼接不是任意拼贴；重叠不足时，自动对齐与拼接可能失败。</p>
+        </details>
+        <details>
+          <summary>导出会添加水印吗？</summary>
+          <p>标准照片导出不添加水印；最终尺寸、格式与可用选项以当前 App 和源照片能力为准。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="download-cta section-shell" id="download" aria-labelledby="download-title">
+      <div>
+        <p class="section-kicker" lang="en">Awaking · for iPhone &amp; iPad</p>
+        <h2 id="download-title">把下一张照片，<br />做得更像你的作品。</h2>
+        <p>当前版本、兼容性与可用功能以 App Store 产品页为准。</p>
+      </div>
+      <img src="./assets/app-icon-192.png" alt="Awaking App 图标" width="112" height="112" loading="lazy" decoding="async" />
+      <a class="store-status" href="https://apps.apple.com/cn/app/awaking/id6760924133" target="_blank" rel="noopener noreferrer">
+        前往 App Store<span aria-hidden="true">↗</span><span class="sr-only">（在新窗口打开）</span>
+      </a>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-shell">
       <a class="brand" href="#top" aria-label="返回 Awaking 官网顶部">
-        <img class="brand-icon" src="./assets/app-icon.png" alt="" width="42" height="42" loading="lazy" />
+        <img class="brand-icon" src="./assets/app-icon-192.png" alt="" width="42" height="42" loading="lazy" decoding="async" />
         <span class="brand-copy"><strong>Awaking</strong><small>专业本地图像编辑器</small></span>
       </a>
       <nav class="footer-nav" aria-label="页脚导航">
-        <a href="https://apps.apple.com/cn/app/awaking/id6760924133" target="_blank" rel="noopener noreferrer">App Store</a>
+        <a href="https://apps.apple.com/cn/app/awaking/id6760924133" target="_blank" rel="noopener noreferrer">App Store<span class="sr-only">（在新窗口打开）</span></a>
         <a href="./support.html">技术支持</a>
         <a href="./privacy-policy.html">隐私政策</a>
         <a href="./terms-of-service.html">用户协议</a>
@@ -212,36 +453,5 @@
       <p class="copyright">© 2026 Awaking</p>
     </div>
   </footer>
-  <script>
-    (() => {
-      const callbackName = "renderAwakingStoreVersion";
-      const versionLabel = document.querySelector("[data-app-version]");
-      const versionCopy = document.querySelector("[data-app-version-copy]");
-      const lookupScript = document.createElement("script");
-
-      const cleanup = () => {
-        delete window[callbackName];
-        lookupScript.remove();
-      };
-
-      window[callbackName] = (payload) => {
-        const app = payload && Array.isArray(payload.results)
-          ? payload.results.find((item) => item.trackId === 6760924133)
-          : null;
-
-        if (app && app.version) {
-          versionLabel.textContent = `最新版本 ${app.version}`;
-          versionCopy.textContent = `当前最新版本为 ${app.version}，版本与可用功能以 App Store 产品页为准。`;
-        }
-
-        cleanup();
-      };
-
-      lookupScript.src = `https://itunes.apple.com/lookup?id=6760924133&country=cn&callback=${callbackName}`;
-      lookupScript.async = true;
-      lookupScript.onerror = cleanup;
-      document.head.appendChild(lookupScript);
-    })();
-  </script>
 </body>
 </html>
