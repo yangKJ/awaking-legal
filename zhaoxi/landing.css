@@ -17,8 +17,13 @@
 
 html { scroll-behavior: smooth; }
 
+html {
+  overflow-x: clip;
+}
+
 body {
   margin: 0;
+  overflow-x: clip;
   color: var(--ink);
   background: var(--paper);
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
@@ -107,6 +112,7 @@ a:focus-visible {
 .site-nav { display: flex; align-items: center; gap: 30px; }
 .site-nav a { color: var(--muted); font-size: 14px; font-weight: 600; text-decoration: none; }
 .site-nav a:hover { color: var(--ink); }
+.site-nav .nav-language { padding: 8px 13px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); }
 .site-nav .nav-download { padding: 10px 18px; border-radius: 999px; color: #fff; background: var(--ink); }
 
 .hero {
@@ -197,7 +203,7 @@ a:focus-visible {
 .sun-glow {
   position: absolute;
   top: -7%;
-  right: -7%;
+  right: 0;
   width: 68%;
   aspect-ratio: 1;
   border-radius: 50%;
@@ -403,7 +409,8 @@ a:focus-visible {
   .nav-shell { min-height: 68px; }
   .brand-copy small { display: none; }
   .site-nav { gap: 16px; }
-  .site-nav a:not(.nav-download) { display: none; }
+  .site-nav a:not(.nav-download):not(.nav-language) { display: none; }
+  .site-nav .nav-language { padding: 8px 11px; }
   .site-nav .nav-download { padding: 9px 14px; }
   .hero { padding-top: 62px; }
   .hero h1 { font-size: clamp(38px, 10.8vw, 54px); }

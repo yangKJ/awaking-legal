@@ -121,6 +121,7 @@ summary:focus-visible {
 
 .site-nav a:hover { color: var(--ink); background: rgba(152, 101, 47, 0.07); }
 .site-nav a[aria-current="page"] { color: var(--ink); background: rgba(152, 101, 47, 0.12); }
+.site-nav .nav-language { border: 1px solid var(--line); color: var(--ink); }
 .site-nav .nav-home { margin-left: 8px; color: #fff; background: var(--ink); }
 .site-nav .nav-home:hover { color: #fff; background: #211b19; }
 
