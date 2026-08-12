@@ -26,6 +26,10 @@
   font-synthesis: none;
 }
 
+html[lang="zh-CN"] {
+  font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Microsoft YaHei", sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
