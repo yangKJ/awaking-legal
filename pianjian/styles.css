@@ -374,6 +374,13 @@ h2 em {
   margin: 28px 0;
 }
 
+.feature-copy .source-note {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font: 650 0.72rem/1.4 var(--utility);
+  letter-spacing: 0.04em;
+}
+
 .gallery-section {
   display: grid;
   grid-template-columns: minmax(250px, 0.7fr) minmax(0, 1.5fr);

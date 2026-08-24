@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "scope": "Pianjian website deployment assets",
+  "source_status": {
+    "stage": "visual-final",
+    "build_number": "1",
+    "source_commit": "30380ff-dirty",
+    "submission_final": false,
+    "note": "These are marketing display assets sourced from real UI candidates. They are not App Store submission-final evidence."
+  },
+  "source_manifest": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/reports/screenshot-manifest.tsv",
+  "assets": [
+    {
+      "website_path": "assets/weiwei-hero.webp",
+      "sha256": "50f85c068139f9151c72e8e3a31639f894626f09ccb1e9abe34e72688500a163",
+      "dimensions": "960x2077",
+      "source": {
+        "visual_final_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/visual-final/weiwei-hero.png",
+        "sha256": "508c41daa8f4f47d8e62a6c845a9e916466357cb8e97064553b84b9712afa0ef",
+        "raw_real_ui_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/raw-real-ui/weiwei-hero.png",
+        "raw_capture_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/iPhone/首页-空.png",
+        "source_kind": "real-ui-wrapped"
+      },
+      "transform": "Lanczos resize to 960x2077 WebP. Website Hero applies an editorial crop; it does not represent one uncropped running App screen."
+    },
+    {
+      "website_path": "assets/creative-capabilities.webp",
+      "sha256": "7f05fbf05f05e14512850d61f23283fe050e8a8c899359833cd6a30d4095c331",
+      "dimensions": "1100x2380",
+      "source": {
+        "visual_final_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/visual-final/creative-capabilities.png",
+        "sha256": "cb3b282103272099a891d0e8df4bd814fc9e9e4c1f45c6e73832b18b28d815c6",
+        "raw_real_ui_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/raw-real-ui/creative-capabilities.png",
+        "raw_capture_paths": [
+          "/Users/condy/Desktop/Awakening/Postcard/outputs/iPhone/Simulator Screenshot - iPhone 17 - 2026-08-23 at 23.09.57.png",
+          "/Users/condy/Desktop/Awakening/Postcard/outputs/iPhone/Simulator Screenshot - iPhone 17 - 2026-08-23 at 23.13.23.png",
+          "/Users/condy/Desktop/Awakening/Postcard/outputs/iPhone/Simulator Screenshot - iPhone 17 - 2026-08-23 at 23.13.54.png",
+          "/Users/condy/Desktop/Awakening/Postcard/outputs/iPhone/Simulator Screenshot - iPhone 17 - 2026-08-23 at 23.14.16.png",
+          "/Users/condy/Desktop/Awakening/Postcard/outputs/iPhone/Simulator Screenshot - iPhone 17 - 2026-08-23 at 23.15.05.png"
+        ],
+        "source_kind": "multi-real-ui-wrapped"
+      },
+      "transform": "Lanczos resize to 1100x2380 WebP. Multi-screen marketing composition; not one running App page."
+    },
+    {
+      "website_path": "assets/result-direction.webp",
+      "sha256": "d6c356dec09ad17b2a0b48803a1f971fa97be042d183b74e6e0a358f5c2cf776",
+      "dimensions": "900x1947",
+      "source": {
+        "visual_final_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/visual-final/result-direction.png",
+        "sha256": "60e453475571c46d3c62e34f7a5ea58db2fa55e199dc1d0201cdc99c795eed21",
+        "raw_real_ui_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/raw-real-ui/result-direction.png",
+        "raw_capture_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/iPhone/Simulator Screenshot - iPhone 17 - 2026-08-23 at 23.09.57.png",
+        "source_kind": "real-ui-wrapped"
+      },
+      "transform": "Lanczos resize to 900x1947 WebP. Website display crop preserves the marketing frame and is labelled as a real-UI-source presentation."
+    },
+    {
+      "website_path": "assets/writing-choices.webp",
+      "sha256": "68c8c1678575284c243f661b9650ba741b4b219b2e9dc1b50c6973470966a65d",
+      "dimensions": "900x1947",
+      "source": {
+        "visual_final_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/visual-final/writing-choices.png",
+        "sha256": "9dcd2097722f2df0e05a5ed62f2dc4f9e2ca62da56aa03e6eb3b661172e36939",
+        "raw_real_ui_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/raw-real-ui/writing-choices.png",
+        "raw_capture_path": "/Users/condy/Desktop/Awakening/Postcard/outputs/iPhone/Simulator Screenshot - iPhone 17 - 2026-08-23 at 23.15.05.png",
+        "source_kind": "real-ui-wrapped"
+      },
+      "transform": "Lanczos resize to 900x1947 WebP. Website display crop preserves the marketing frame and is labelled as a real-UI-source presentation."
+    },
+    {
+      "website_path": "assets/weiwei-launch-character.webp",
+      "sha256": "55990398e9f1c3239de7fce234d836ac67cde7347c07bd9baa789266d1dffbd9",
+      "dimensions": "540x540 RGBA",
+      "source": {
+        "asset_id": "weiwei.character-master.v2",
+        "master_path": "/Users/condy/Desktop/Awakening/Postcard/Docs/Visuals/Weiwei/weiwei-character-master-v2.png",
+        "master_sha256": "b7721f60ccd77ca6067871de638405d8fc89380d0dd7f12d1c8c04f056a28621",
+        "approved_derived_path": "/Users/condy/Desktop/Awakening/Postcard/Pianjian/Resources/Assets.xcassets/Images/Weiwei/Launch/WeiweiLaunchCharacter.imageset/weiwei-launch-character.png",
+        "approved_derived_sha256": "7d10c38867db91977de7cc819a7dc4ce7616db5bdbae3a03e6a84bd4a34e7e95"
+      },
+      "transform": "Lanczos resize to 540x540 WebP with alpha preserved."
+    },
+    {
+      "website_path": "assets/app-icon.webp",
+      "sha256": "e48dd81b42a7d3371f9d0bff3688c5e3798ffdc719b3c19ab569394a7169f8f5",
+      "dimensions": "128x128",
+      "source": {
+        "path": "/Users/condy/Desktop/Awakening/Postcard/Pianjian/Resources/Assets.xcassets/Icons/App/AppIcon.appiconset/AppIcon1024.png",
+        "sha256": "433a7c6190a7b05be40831da772637a32ce87b0da2668e053adb5f5d2427704d"
+      },
+      "transform": "Lanczos resize to 128x128 WebP."
+    }
+  ]
+}
