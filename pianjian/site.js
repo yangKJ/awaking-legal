@@ -11,7 +11,7 @@
     if (!isOpen()) return;
 
     button.setAttribute('aria-expanded', 'false');
-    button.setAttribute('aria-label', '打开网站导航');
+    button.setAttribute('aria-label', button.dataset.closedLabel || 'Open site navigation');
     nav.classList.remove('is-open');
 
     if (restoreFocus) button.focus();
@@ -20,7 +20,7 @@
   button.addEventListener('click', () => {
     const nextOpenState = !isOpen();
     button.setAttribute('aria-expanded', String(nextOpenState));
-    button.setAttribute('aria-label', nextOpenState ? '关闭网站导航' : '打开网站导航');
+    button.setAttribute('aria-label', nextOpenState ? (button.dataset.openLabel || 'Close site navigation') : (button.dataset.closedLabel || 'Open site navigation'));
     nav.classList.toggle('is-open', nextOpenState);
   });
 

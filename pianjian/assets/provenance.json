@@ -9,6 +9,100 @@
     "note": "These are marketing display assets sourced from real UI candidates. They are not App Store submission-final evidence."
   },
   "source_manifest": "/Users/condy/Desktop/Awakening/Postcard/outputs/app-store/1.0.0/reports/screenshot-manifest.tsv",
+  "website_rebuild_assets": [
+    {
+      "website_path": "assets/home-write-a-postcard.webp",
+      "sha256": "da6800e00e800a238d8fbb9cbeb5cc30d007ad4895cb972c8ab225097421c695",
+      "dimensions": "1206x2622",
+      "source": "Postcard/outputs/app-store/1.0.0/v2/raw-real-ui/home-write-a-postcard.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/composition-choice.webp",
+      "sha256": "95a831e3ccb123fe32dc9144ff944f57679298b8df18e5830fb30e7ee2411537",
+      "dimensions": "1206x2622",
+      "source": "Postcard/outputs/app-store/1.0.0/v2/raw-real-ui/composition-choice.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/layout-choice.webp",
+      "sha256": "ee5304abf239c0cec886156e14c59e92ba9dff2be93fdfb2dfbb2c0f301c49f9",
+      "dimensions": "1206x2622",
+      "source": "Postcard/outputs/app-store/1.0.0/v2/raw-real-ui/layout-choice.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/writing-methods.webp",
+      "sha256": "194b296986b2cf97d69cc9ff61fd9b9cc0d6b6528a4fc430358bb777274153e9",
+      "dimensions": "1206x2622",
+      "source": "Postcard/outputs/app-store/1.0.0/v2/raw-real-ui/writing-methods.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/postcard-box.webp",
+      "sha256": "e9b5e5d881086b23ac333f5b23e5a316954dc813a2cd21687cc558d75377199a",
+      "dimensions": "1206x2622",
+      "source": "Postcard/outputs/app-store/1.0.0/v2/raw-real-ui/postcard-box.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/handwriting.webp",
+      "sha256": "04d339765e66dc55cf2fb1e48853212f70929f1f0282ad8621d05b263ac88202",
+      "dimensions": "1206x2622",
+      "source": "Postcard/outputs/iPhone/手写-见字如面-v1.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    }
+  ],
+  "website_rebuild_assets_en": [
+    {
+      "website_path": "assets/home-write-a-postcard-en.webp",
+      "sha256": "46a3118aab8a7db7a5529931738e2341a1d31d2dea86a789a9e5a772ce4889e3",
+      "source": "Postcard/outputs/iPhone/首页-en.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/composition-choice-en.webp",
+      "sha256": "d7ea405fd2e106618d02f4306dcef6861006e16fec7aa3b0f8dc98a859271193",
+      "source": "Postcard/outputs/app-store/1.0.0/en/v2/raw-real-ui/mood-choice.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/layout-choice-en.webp",
+      "sha256": "202a1345e6db266073f0ba21920185db74a1fbfa0971dc68791fd793c009c05f",
+      "source": "Postcard/outputs/iPhone/版式选择-en.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/writing-methods-en.webp",
+      "sha256": "3f0496c60ef77d8ca43eba314fa02ba3a7c9788e4448317e698f37da737bd9c9",
+      "source": "Postcard/outputs/app-store/1.0.0/en/v2/raw-real-ui/writing-methods.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/postcard-box-en.webp",
+      "sha256": "46a3118aab8a7db7a5529931738e2341a1d31d2dea86a789a9e5a772ce4889e3",
+      "source": "Postcard/outputs/app-store/1.0.0/en/v2/raw-real-ui/postcard-box.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
+      "website_path": "assets/handwriting-en.webp",
+      "sha256": "8c1f46f8ae9c64b31489a2e67275fac5989c29649935053bbb14f3a53953d87b",
+      "source": "Postcard/outputs/iPhone/手写-en-letter-v1.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    }
+  ],
   "assets": [
     {
       "website_path": "assets/weiwei-hero.webp",
