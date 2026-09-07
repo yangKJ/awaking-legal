@@ -27,6 +27,14 @@
       "transform": "WebP q82 for website delivery."
     },
     {
+      "website_path": "assets/studio-preview.webp",
+      "sha256": "2f9c28bdf54ceccffa6da947749baf5e7152fa3a44a6be9e18cf1048dbe8ab5c",
+      "dimensions": "1206x2622",
+      "source": "Postcard/outputs/iPhone/预览区域.png",
+      "source_kind": "real-ui",
+      "transform": "WebP q82 for website delivery."
+    },
+    {
       "website_path": "assets/layout-choice.webp",
       "sha256": "ee5304abf239c0cec886156e14c59e92ba9dff2be93fdfb2dfbb2c0f301c49f9",
       "dimensions": "1206x2622",
