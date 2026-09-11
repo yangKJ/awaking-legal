@@ -8,7 +8,7 @@
 |---|---|---|
 | Awaking | `awaking/` | `https://yangkj.github.io/awaking-legal/awaking/` |
 | 照惜 | `zhaoxi/` | `https://yangkj.github.io/awaking-legal/zhaoxi/` |
-| 片笺 | `pianjian/` | `https://yangkj.github.io/awaking-legal/pianjian/` |
+| 片笺 / Postcard | `pianjian/` | `https://yangkj.github.io/awaking-legal/pianjian/` |
 
 各产品独立维护品牌视觉、功能边界、隐私披露和用户协议。不要跨产品复制功能声明、购买规则或数据处理口径。
 
