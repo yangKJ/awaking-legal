@@ -44,13 +44,13 @@ body.marketing-home button { font: inherit; }
 .brand img { width: 40px; border-radius: 10px; }
 .desktop-nav { display: flex; align-items: center; gap: 12px; }
 .nav-pill { display: flex; align-items: center; gap: 2px; padding: 5px; border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 999px; background: rgba(10, 11, 14, 0.72); backdrop-filter: blur(16px); }
-.nav-pill a { padding: 9px 13px; border-radius: 999px; font-size: 13px; color: rgba(255, 255, 255, 0.78); transition: background 180ms ease, color 180ms ease; }
+.nav-pill a { display: inline-flex; min-height: 44px; align-items: center; padding: 9px 13px; border-radius: 999px; font-size: 13px; color: rgba(255, 255, 255, 0.78); transition: background 180ms ease, color 180ms ease; }
 .nav-pill a:hover, .nav-pill a:focus-visible { color: var(--ink); background: var(--paper); outline: none; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 13px 20px; border-radius: 999px; font-size: 15px; font-weight: 700; letter-spacing: -0.02em; transition: transform 180ms ease, background 180ms ease; }
 .button:hover { transform: translateY(-2px); }
 .marketing-home .button-light { color: var(--ink); background: var(--paper); }
 .button-light:hover { background: white; }
-.button-small { min-height: 42px; padding-inline: 16px; font-size: 13px; }
+.button-small { min-height: 44px; padding-inline: 16px; font-size: 13px; }
 .mobile-nav { display: none; }
 
 .hero { position: relative; isolation: isolate; min-height: max(720px, 100svh); overflow: hidden; background: #16222e; }
@@ -289,4 +289,5 @@ html[lang="zh-CN"] .hero h1 span { word-break: keep-all; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+  .button:hover, .work:hover img { transform: none; }
 }
