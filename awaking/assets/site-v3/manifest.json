@@ -1,0 +1,101 @@
+{
+  "author": "Condy",
+  "capture_version": "1.2.3",
+  "build": "29",
+  "source_commit": "e13cfd651f816382b186ee89aa908c10fcf3f406",
+  "source_boundary": "发布期代码重建的模拟器包，不是 App Store 分发二进制",
+  "photo_origin": "AI 生成示例照片；编辑与 JPEG 导出由真实 App 完成",
+  "assets": [
+    {
+      "output": "case-original.webp",
+      "source": "outputs/app-store/1.2.3/marketing-2026-10-08/cases/hero-input.png",
+      "source_sha256": "85446d14798c8f998050cedb8b4165b9ea6cdf9a6464d20c60873bdb36fb2891",
+      "output_sha256": "b283425ea5de717720ddc5933051f1a5d02dad56aad73f7346587d001fb19f6e",
+      "width": 852,
+      "height": 1847
+    },
+    {
+      "output": "case-result.webp",
+      "source": "outputs/app-store/1.2.3/marketing-2026-10-08/cases/hero-local-bw-output.jpg",
+      "source_sha256": "46e754dd1554545fe55ad7798a8e122ac39b20dfd21e226c2bb2b4123f06c401",
+      "output_sha256": "23e7fc3c282d2fd2e5c41353d1cc60d36e867c8ea688f8e7be4252520f97ce3f",
+      "width": 852,
+      "height": 1847
+    },
+    {
+      "output": "editor-local-zh.webp",
+      "source": "outputs/app-store/1.2.3/marketing-2026-10-08/raw-real-ui/zh-Hans/03-local-filter.png",
+      "source_sha256": "65fd15afac19d8d1c00031282da24b5db2ffb983b710bd2f13b55c123eb3a05e",
+      "output_sha256": "9ad516074dfd8e4db1db02cf386f67737c574200ce80074d7aed1d87c7d21e3f",
+      "width": 1206,
+      "height": 2622
+    },
+    {
+      "output": "editor-result-zh.webp",
+      "source": "outputs/app-store/1.2.3/marketing-2026-10-08/raw-real-ui/zh-Hans/04-editor-result.png",
+      "source_sha256": "4f809532f9881fc05c52abfabafaea094e5eba8d6c99f93e43be7b9c21d2a1ca",
+      "output_sha256": "ff9dab9a93b5a566beb86a31a871936758772b35b0a97a233dd14196090da080",
+      "width": 1206,
+      "height": 2622
+    },
+    {
+      "output": "editor-local-en.webp",
+      "source": "outputs/app-store/1.2.3/marketing-2026-10-08/raw-real-ui/en-US/03-local-filter.png",
+      "source_sha256": "705077e1a77c9bad601eccc058ec06ef558430d9288e7648d50e7f9188b46b2f",
+      "output_sha256": "f938f2f83c371fe4522f0564b9a5503e346440b4848f18df8e4ded9ca02213b2",
+      "width": 1206,
+      "height": 2622
+    },
+    {
+      "output": "editor-result-en.webp",
+      "source": "outputs/app-store/1.2.3/marketing-2026-10-08/raw-real-ui/en-US/04-editor-result.png",
+      "source_sha256": "de8facfcc5ea3892ad1fb472ce5f2399e1171e8f32f31695b44a1859715b06e6",
+      "output_sha256": "dcfa110b78b379d1a3a2e8412ebe01045c3a024d2b52ce46d20116d21ace941a",
+      "width": 1206,
+      "height": 2622
+    }
+  ],
+  "reused_visuals_note": "复用 2026-09-11 已有 AI 品牌素材；来源说明见仓库 design-qa.md 的视觉体系修订。本轮没有重新生成、调色或重绘。",
+  "reused_visuals": [
+    {
+      "path": "awaking/assets/site-v2/hero-coast.webp",
+      "sha256": "6c627ce5345af3d19e34328e955c3f4b1d0c8516887cef8777f7cf34141dfe26",
+      "kind": "ai-created-brand-concept"
+    },
+    {
+      "path": "awaking/assets/site-v2/hero-coast-mobile.webp",
+      "sha256": "9eb093de6865422ffb5b44d1d8ccae40c38b95e9cf23230a6d8451aabe43f032",
+      "kind": "ai-created-brand-concept"
+    },
+    {
+      "path": "awaking/assets/site-v2/work-portrait.webp",
+      "sha256": "4a1265604ee5a9af0ea0d5c4c646bca0cafde46e3faf0829702c56f3ced135bf",
+      "kind": "ai-created-brand-concept"
+    },
+    {
+      "path": "awaking/assets/site-v2/work-architecture.webp",
+      "sha256": "c68f28b263b3c9c752b50ad976b7059da2e5a21fbc3d94ae32e2c23d8cd6f18b",
+      "kind": "ai-created-brand-concept"
+    },
+    {
+      "path": "awaking/assets/site-v2/work-night.webp",
+      "sha256": "89e8487d14d691500af578d7e8fd5ef6aa0f543f3a7d3a96ce6d97265421daec",
+      "kind": "ai-created-brand-concept"
+    },
+    {
+      "path": "awaking/assets/site-v2/device-mac.webp",
+      "sha256": "1f50cf7aa1699ccfadb39f84d4af4afc3559d81b3b7f4b7ff35f6d57d60d70a5",
+      "kind": "ai-created-brand-concept"
+    },
+    {
+      "path": "awaking/assets/site-v2/device-ipad.webp",
+      "sha256": "1cecaf24700ea5cea33e9e36f80f13dfe38c8605de7e1683062b539eb467dcc8",
+      "kind": "ai-created-brand-concept"
+    },
+    {
+      "path": "awaking/assets/site-v2/device-iphone.webp",
+      "sha256": "b15f5caea57a4081a4534a751c9ff94ac3ad6b893a974efd0016554a3bfbfb8c",
+      "kind": "ai-created-brand-concept"
+    }
+  ]
+}

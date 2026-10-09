@@ -33,6 +33,8 @@ awaking/
 │   └── assets/
 │       └── web/
 └── shared/
+    ├── home-v2.css
+    ├── home-v2.js
     ├── site.css
     └── site.js
 ```
@@ -40,6 +42,7 @@ awaking/
 - `zh/`：简体中文官网、支持、隐私政策和用户协议。
 - `en/`：英文同构页面；语言切换保持在当前对应页面。
 - `shared/`：双语页面共用的响应式样式和版本展示脚本。
+- 首页使用 `home-v2.css` / `home-v2.js`；支持与法律页继续使用 `site.css`，各表面独立维护。
 - `assets/web/`：网页实际加载的轻量 WebP；源 PNG 只作为设计母版，不直接进入首屏加载链。
 
 ### 新版预备地址
@@ -116,6 +119,7 @@ python3 -m http.server 8765
 - 移动菜单、键盘焦点、Skip Link、44×44pt 触控热区和 Reduce Motion。
 - 中英文素材没有串用，海报保持比例且不使用 `object-fit: cover` 裁掉文字。
 - `node --check awaking/shared/site.js` 与 `git diff --check` 通过。
+- `node --check awaking/shared/home-v2.js` 和 `node --test tests/home-interactions.test.cjs` 通过。
 - 网页首屏加载优化资源；不要把约 28–29 MB 的源 PNG 直接部署为首屏资源。
 
 ## 发布方式
@@ -123,3 +127,15 @@ python3 -m http.server 8765
 GitHub Pages 从 `master` 分支仓库根目录发布。创建本地提交不会自动公开页面；只有推送到远端并完成 Pages 部署后，线上内容才会更新。
 
 支持邮箱：`yangkj310@gmail.com`
+
+## 2026-10-09 首页重设计
+
+用户确认摄影主导，随后展示编辑能力。首页顺序调整为海岸主视觉 → 同图真实局部编辑案例 → 风格灵感 → 跨设备展示 → 编辑流程 → 隐私 → 免费 / Pro → 下载。
+
+- 保留黑色品牌基调，蓝紫色集中用于主操作、选中与焦点；使用自托管 Archivo 和 Newsreader，许可证与来源见 `awaking/assets/fonts/README.md`。
+- 案例使用 2026-10-08 的 Awaking 1.2.3 / 29 素材采集构建中的真实编辑和 JPEG 导出。原片是 AI 示例照片；采集构建来自发布期代码重建，不能据此声称是 App Store 分发二进制。页面不公开构建、设备与开发细节。
+- `awaking/assets/site-v3/manifest.json` 记录 6 张新接入素材的来源、输出哈希及尺寸，也记录本次复用的 AI 品牌摄影和设备概念图。概念素材与真实编辑案例在页面上分别标注。
+- 原生滑杆可比较原片与结果，支持键盘；没有 JavaScript 时并排显示两图，并展开编辑过程与设备说明。
+- 两组标签页分别管理选择；设备支持、Free / Pro、支持、法律、下载与语言互跳保留。手机单列，平板按内容重排，桌面使用有界双栏；短窗口可以继续滚动。
+
+本轮只修改双语首页与首页共享资源，没有变更法律正文或其他产品页面。代码与离线检查通过不代表浏览器视觉验收；实际换行、裁切、触控和不同视口的表现需单独确认。没有推送或部署。
