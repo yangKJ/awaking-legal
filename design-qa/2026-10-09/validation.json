@@ -1,0 +1,115 @@
+{
+  "author": "Condy",
+  "date": "2026-10-09",
+  "base_commit": "41e3916",
+  "scope": "已授权的本地浏览器视觉与菜单、标签、滑杆验收",
+  "brand_touch_target_after_fix_px": 44,
+  "comparison": {
+    "original_percent": 0,
+    "export_percent": 100,
+    "keyboard": "Home / End 实际操作"
+  },
+  "tabs": "两个标签组独立，点击及键盘切换正确",
+  "menu": "展开、Escape 焦点返回、锚点关闭、中英文互跳正确",
+  "console_warnings_errors": [],
+  "visual_review": "ship；限本地静态视觉",
+  "full_page_capture": "最终全页截图来自 scrollY=0，skip-link 未获焦且位于可視区外",
+  "cleanup": {
+    "viewport_restored": true,
+    "browser_tab_closed": true,
+    "http_server_stopped": true,
+    "cache_override_restored": true
+  },
+  "limitations": [
+    "非实体设备验收",
+    "未验证 VoiceOver 与 Reduce Motion 实际设置",
+    "未推送或部署",
+    "无法取得精确计量"
+  ],
+  "screenshots": [
+    {
+      "file": "en-1180x820.jpg",
+      "sha256": "a67f7bd35897c1a1ddf1aec36ae1f1f0c4d449a8a80afc40b399de93fd9d4e8c"
+    },
+    {
+      "file": "en-1280x540.jpg",
+      "sha256": "c638f3b1761718926ec36665b682b0927e32214dd0446b94ae83243d77a94298"
+    },
+    {
+      "file": "en-320x740.jpg",
+      "sha256": "b34ae33b3e00349068d65c8c6f1e3fe8fab6e8e82b4f569ef3d456bb623e13c3"
+    },
+    {
+      "file": "en-820x1180.jpg",
+      "sha256": "8e9d4dcc2581f30fc856d7227a15f1d9754bcba44c51dfc1c684015ecd540099"
+    },
+    {
+      "file": "en-desktop-case.jpg",
+      "sha256": "453ad29765ffbb27df66accba7e3fa563ca86f5c09a526b3cc945dd51819af83"
+    },
+    {
+      "file": "en-desktop-full.jpg",
+      "sha256": "0e4857107a55dff63c91d899a37583f133fa6eadf13349d1954d83095af8c552"
+    },
+    {
+      "file": "en-desktop-hero.jpg",
+      "sha256": "5d298836a3cf41949954dfd609fe4677e135230c0331964f1d501daba3f56438"
+    },
+    {
+      "file": "en-mobile-case.jpg",
+      "sha256": "6f8211c5248ed6ce0190eadabcd42ddfa6efc2ff19c71c8d3da8245e6a1fdf00"
+    },
+    {
+      "file": "en-mobile-full.jpg",
+      "sha256": "29b0fddc145709805a2fb34c00211058471c11295f6b9a65fed34690ac84a251"
+    },
+    {
+      "file": "en-mobile-hero.jpg",
+      "sha256": "5aff737c42795a3badc113f686d22d0aaa2beabd8a9feac5720c09b16833e0a2"
+    },
+    {
+      "file": "zh-1180x820.jpg",
+      "sha256": "e996f836b94e2b31e784aecd8a19c4acd9020b94a30429e188d9ba85de5d5c80"
+    },
+    {
+      "file": "zh-1280x540.jpg",
+      "sha256": "62bd16abba62308962964ea03375d02c72a5f5440c25512b6e25230fe0e7b067"
+    },
+    {
+      "file": "zh-320x740.jpg",
+      "sha256": "fe0c28070170e4728b34b9a7e9984ed8f337bd5a988f4ac101a87414daeeeba6"
+    },
+    {
+      "file": "zh-820x1180.jpg",
+      "sha256": "e5f64a264312ae01634df8b00b2035c21ba6c104278de8d10f6e0b0a1a429805"
+    },
+    {
+      "file": "zh-desktop-case.jpg",
+      "sha256": "5ea06542e686446d26cb5bbe67f94f6c213628b06f24c1d0f5f510e9e787cb2e"
+    },
+    {
+      "file": "zh-desktop-full.jpg",
+      "sha256": "1f18aca3b062f60a4e6a9dd1587b843e50bd18fd0ede248a8d3abedfcdc66396"
+    },
+    {
+      "file": "zh-desktop-hero.jpg",
+      "sha256": "4103f46a3af3f01c2871777284084deda43bbb0b17230a95a2b91248368cde3e"
+    },
+    {
+      "file": "zh-mobile-case.jpg",
+      "sha256": "8dac5f2835dd3e172687aac739a938bd0aaf2dca81312ab6cfd72b656716499c"
+    },
+    {
+      "file": "zh-mobile-full.jpg",
+      "sha256": "3197a351aae79567ea9cc800e7bef6f31923acce3f0b034417a03b3dbf134cb6"
+    },
+    {
+      "file": "zh-mobile-hero.jpg",
+      "sha256": "361841061792551d7426bde3d74064de6f139c36fedc39721c7491b57f1ab835"
+    },
+    {
+      "file": "zh-mobile-menu.jpg",
+      "sha256": "dcb9986143e377fd7c4dc576b291d6169b9d54fddf65ac63df125894e5fcb256"
+    }
+  ]
+}

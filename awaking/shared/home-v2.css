@@ -50,7 +50,7 @@ section[id] { scroll-margin-top: 24px; }
 .skip-link:focus { transform: none; }
 
 .site-header { position: absolute; z-index: 10; top: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: space-between; width: var(--shell); min-height: 96px; margin-inline: auto; gap: 24px; }
-.brand { display: inline-flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.brand { display: inline-flex; min-height: 44px; align-items: center; gap: 10px; flex-shrink: 0; }
 .brand img { width: 34px; height: 34px; border-radius: 9px; }
 .brand span { padding-top: 4px; font-family: "Newsreader", Georgia, serif; font-size: 30px; font-weight: 600; font-style: italic; line-height: 1; letter-spacing: -0.025em; }
 .desktop-nav, .nav-links { display: flex; align-items: center; gap: 26px; }

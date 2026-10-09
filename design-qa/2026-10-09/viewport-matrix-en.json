@@ -1,0 +1,70 @@
+{
+  "author": "Condy",
+  "phase": "布局验收；品牌链接热区修正前",
+  "measurements": [
+    {
+      "height": 740,
+      "heroTitle": {
+        "bottom": 365.1953125,
+        "height": 67.828125,
+        "left": 20,
+        "right": 300,
+        "top": 297.3671875,
+        "width": 280,
+        "x": 20,
+        "y": 297.3671875
+      },
+      "scrollWidth": 320,
+      "visibleBrokenImages": [],
+      "width": 320
+    },
+    {
+      "height": 1180,
+      "heroTitle": {
+        "bottom": 671.5,
+        "height": 127.1875,
+        "left": 24,
+        "right": 796,
+        "top": 544.3125,
+        "width": 772,
+        "x": 24,
+        "y": 544.3125
+      },
+      "scrollWidth": 820,
+      "visibleBrokenImages": [],
+      "width": 820
+    },
+    {
+      "height": 820,
+      "heroTitle": {
+        "bottom": 598.296875,
+        "height": 167.609375,
+        "left": 48,
+        "right": 688.0703125,
+        "top": 430.6875,
+        "width": 640.0703125,
+        "x": 48,
+        "y": 430.6875
+      },
+      "scrollWidth": 1180,
+      "visibleBrokenImages": [],
+      "width": 1180
+    },
+    {
+      "height": 540,
+      "heroTitle": {
+        "bottom": 449.5,
+        "height": 181.796875,
+        "left": 48,
+        "right": 750.3359375,
+        "top": 267.703125,
+        "width": 702.3359375,
+        "x": 48,
+        "y": 267.703125
+      },
+      "scrollWidth": 1280,
+      "visibleBrokenImages": [],
+      "width": 1280
+    }
+  ]
+}

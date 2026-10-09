@@ -1,0 +1,54 @@
+{
+  "author": "Condy",
+  "phase": "布局验收；品牌链接热区修正前",
+  "measurements": [
+    {
+      "headerBrandHeight": 32,
+      "height": 740,
+      "scrollWidth": 320,
+      "scrollY": 0,
+      "visibleBrokenImages": [],
+      "width": 320
+    },
+    {
+      "headerBrandHeight": 32,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollY": 0,
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "headerBrandHeight": 34,
+      "height": 1180,
+      "scrollWidth": 820,
+      "scrollY": 0,
+      "visibleBrokenImages": [],
+      "width": 820
+    },
+    {
+      "headerBrandHeight": 34,
+      "height": 820,
+      "scrollWidth": 1180,
+      "scrollY": 0,
+      "visibleBrokenImages": [],
+      "width": 1180
+    },
+    {
+      "headerBrandHeight": 34,
+      "height": 540,
+      "scrollWidth": 1280,
+      "scrollY": 0,
+      "visibleBrokenImages": [],
+      "width": 1280
+    },
+    {
+      "headerBrandHeight": 34,
+      "height": 800,
+      "scrollWidth": 1280,
+      "scrollY": 0,
+      "visibleBrokenImages": [],
+      "width": 1280
+    }
+  ]
+}
