@@ -193,5 +193,81 @@
       },
       "transform": "Lanczos resize to 128x128 WebP."
     }
+  ],
+  "website_device_frame": {
+    "website_path": "assets/iphone-16-pro-black-titanium-portrait.png",
+    "source_kind": "user-provided",
+    "source": "outputs/iphone-16-pro-black-titanium-portrait.png",
+    "dimensions": "1406x2822",
+    "sha256": "f56d27cb5b70d5adeb8f5fcb7e5c386ffb441a6a23417d0f3f62cbbd93823962",
+    "transform": "Byte-for-byte copy; screenshot is positioned separately with CSS."
+  },
+  "website_camera_assets": [
+    {
+      "website_path": "assets/camera-floor-zh.webp",
+      "source": "Postcard/outputs/app-store/1.2.1/redesign-2026-11-08/iphone/zh-Hans/raw-real-ui/01-camera-floor.png",
+      "source_kind": "real-ui-debug-user-photo-data",
+      "source_dimensions": [
+        1206,
+        2622
+      ],
+      "source_sha256": "368d8e8ac5dc10864e88adc0e0fc44257e36f554781b43e6a272bdd2ebb6a2ea",
+      "sha256": "2313219250e02713f8fc2ac780afa4ecffffab36e0d30a27520b9076d1febc93",
+      "transform": "WebP q88; no crop, resize or retouch.",
+      "build_binding": "Historical marketing capture; not bound to current release build.",
+      "source_build": "20-debug"
+    },
+    {
+      "website_path": "assets/camera-floor-en.webp",
+      "source": "Postcard/outputs/app-store/1.2.1/redesign-2026-11-08/iphone/en/raw-real-ui/02-camera-floor.png",
+      "source_kind": "real-english-ui",
+      "source_dimensions": [
+        1206,
+        2622
+      ],
+      "source_sha256": "83f9431989415adc723c792b5d28ea4f5f0c9954a2308d8f3c5c5a02114fc964",
+      "sha256": "22907a45409ebd0d89cbf20dc15e2d25acd4b6613e2166722fec1c7fc132e336",
+      "transform": "WebP q88; no crop, resize or retouch.",
+      "source_build": "20-debug",
+      "build_binding": "Historical marketing capture; not bound to current release build."
+    }
+  ],
+  "website_download_icon": {
+    "website_path": "assets/app-icon-display.webp",
+    "dimensions": "512x512",
+    "sha256": "1ea3174b9da398b17a517afdedffc8723b38a504ce7ffa7faaac6ac3efb2c365",
+    "source": "Postcard/Pianjian/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon1024.png",
+    "source_sha256": "433a7c6190a7b05be40831da772637a32ce87b0da2668e053adb5f5d2427704d",
+    "transform": "Lanczos resize to 512x512 WebP q90; color profile preserved when present."
+  },
+  "website_paper_assets": [
+    {
+      "website_path": "assets/paper-choice.webp",
+      "source": "Postcard/outputs/app-store/1.2.1/redesign-2026-11-08/iphone/zh-Hans/raw-real-ui/05-paper.png",
+      "source_kind": "existing-ui",
+      "source_dimensions": [
+        1206,
+        2622
+      ],
+      "source_sha256": "d0431f727b2462ab0fbd6f5cf136c5d04b8ce19e1f4f6665916202afacd3be91",
+      "sha256": "01cc1c1f2f0a1e8ff47531ae4eb39cb4c1f75df46d751b034b64a6987e12c339",
+      "transform": "WebP q88; no crop, resize or retouch.",
+      "source_build": "unverified",
+      "build_binding": "Historical marketing capture; not bound to current release build."
+    },
+    {
+      "website_path": "assets/paper-choice-en.webp",
+      "source": "Postcard/outputs/app-store/1.2.1/redesign-2026-11-08/iphone/en/raw-real-ui/06-paper.png",
+      "source_kind": "existing-english-ui",
+      "source_dimensions": [
+        1206,
+        2622
+      ],
+      "source_sha256": "e5c56792070179d06b3aa0d5f2e88456b91eae3bc4f0961b8609ec534f9b0bba",
+      "sha256": "a2b3d6f0dce79b79c92b14c375360622531a8c6477183965408af8a1bd20c557",
+      "transform": "WebP q88; no crop, resize or retouch.",
+      "source_build": "unverified",
+      "build_binding": "Historical marketing capture; not bound to current release build."
+    }
   ]
 }
