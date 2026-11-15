@@ -1,0 +1,30 @@
+/*
+ * guides.css
+ * 片笺双语使用指南
+ *
+ * Created by Condy on 2026/11/15.
+ */
+.guide-page .site-header { height: auto; }
+.guide-navigation { flex-wrap: wrap; padding-block: 8px; }
+.guide-actions { display: flex; flex-wrap: wrap; gap: 20px; }
+.guide-actions a { display: inline-flex; align-items: center; min-height: 44px; }
+.guide-article { width: min(760px, calc(100% - 48px)); padding-block: clamp(48px, 8vw, 96px); }
+.guide-intro h1 { margin-block: 16px 24px; font: 600 clamp(2.3rem, 5vw, 3.8rem)/1.2 var(--display-font); }
+.guide-intro p, .guide-article section p, .guide-article li { color: var(--muted); }
+.guide-intro .guide-meta { margin-top: 20px; font-size: .85rem; }
+.guide-toc { margin-block: 36px; padding: 24px; border-block: 1px solid var(--rule); background: var(--mist); }
+.guide-toc a { display: inline-block; padding-block: 6px; }
+.guide-article ul, .guide-article ol { padding-left: 1.4em; }
+.guide-article section { padding-block: 28px; border-bottom: 1px solid var(--rule); }
+.guide-article section h2 { margin-bottom: 18px; font: 600 clamp(1.6rem, 3vw, 2.1rem)/1.35 var(--display-font); }
+.guide-article section p + p { margin-top: 18px; }
+.guide-article section li + li { margin-top: 12px; }
+.guide-article section li strong { color: var(--ink); }
+.guide-article section a { color: var(--green); }
+.guide-article section p > a { display: inline-block; padding-block: 6px; }
+
+@media (max-width: 480px) {
+  .guide-navigation { gap: 8px 16px; }
+  .guide-actions { gap: 16px; }
+  .guide-article { width: calc(100% - 32px); }
+}

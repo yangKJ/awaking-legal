@@ -1,0 +1,362 @@
+{
+  "author": "Condy",
+  "capturedAt": "2026-11-15",
+  "device": "iPhone 18 Pro Max Simulator",
+  "system": "iOS 27.2",
+  "appVersion": "1.2.2 (21)",
+  "status": "同一示例的真实运行截图；不代表已核验 App Store 分发 Build。",
+  "screenshots": [
+    {
+      "file": "en-01-home.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/01-home.png",
+      "sourceSha256": "22146d4e6a98a0bf1313688c047fb656189e2dc3eff37af37e8a38f16fb77f03",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-02-writing.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/02-writing.png",
+      "sourceSha256": "7d9b03975cfcf34dc508ba7e89c8077c486d083d8cf0d9868dd81f51c07f80e1",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-03-typing.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/03-typing.png",
+      "sourceSha256": "b9bf41e600303aeb11f72e8de58798c1505c1219069bc8b528f401405c2747dd",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-05-layout.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/05-layout.png",
+      "sourceSha256": "1844c57b3a98b29e99e025eb70395de81c078674d16b79cb20bfefdd9972cb09",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-06-paper.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/06-paper.png",
+      "sourceSha256": "495bef1a724235c8a1004322748e32441690115b92aa0a4bf57e449195b6fc6c",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-07-static-review.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/07-static-review.png",
+      "sourceSha256": "f75dd97e564aef84fea97b2936d35d24a2247449d346aa95501a36f5a30bdb50",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-08-saved.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/08-saved.png",
+      "sourceSha256": "289daeee7857a54c047ed672f4c1e8470348283dc49e5b8bc7800ccd767ea255",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-09-live-format.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/09-live-format.png",
+      "sourceSha256": "687822b8147410e6feaf75658ec6a6af60a2802e450f90c4a6be3f387e1b61e8",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-10-motion.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/10-motion.png",
+      "sourceSha256": "c64a0ce71a56ed6b08f86d7f5ba807bde4385dd8beea6a2b92fd48c4e02f9eb1",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-12-live-review.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/12-live-review.png",
+      "sourceSha256": "28c99fbd4a5f260b3a841a451701db678528dc65f848cb85ab7f9b938627495c",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "en-13-live-saved.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/en/13-live-saved.png",
+      "sourceSha256": "b6710ffbc92edef5493e73b55ff342d4912e0ed34ec85b7ee66e042c6eb4dd23",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "en",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-01-home.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/01-home.png",
+      "sourceSha256": "e8c9a9e7f48d9bfce0ab4ae6b5b97df32114f5fee0725fe367a8e4c85b13c374",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-02-writing.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/02-writing.png",
+      "sourceSha256": "de7cde81af7513229798bd829681096c059de2bc57281a11db69f285ace75e11",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-03-typing.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/03-typing.png",
+      "sourceSha256": "2f4352975b43ab6d35b2c989ddc07831d1c073d54e10951780c7cd8a0c039ad9",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-05-layout.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/05-layout.png",
+      "sourceSha256": "9590aa978ed1344b2e8cd0a85a3dc2195ff2781563aa4463ae4660f05e68eff8",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-06-paper.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/06-paper.png",
+      "sourceSha256": "e0783559d7ffefa01934c3d86e2de4be4699fa5825d8b7fb42a2e0a72d7ef6e2",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-07-static-review.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/07-static-review.png",
+      "sourceSha256": "80753a25dc0b4698ec3077333547a94d90f0cf51a44d59cbd6ccc4522ccf2a00",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-08-saved.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/08-saved.png",
+      "sourceSha256": "6c1bb58341010ef793f513884e810ab5563416f444e96de748a7e9b3fac8b54d",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-09-live-format.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/09-live-format.png",
+      "sourceSha256": "1ac7c3a9da876a8f32717d3601dacbf5b0582690d2f59f9c8f812ec920abc3b5",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-10-motion.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/10-motion.png",
+      "sourceSha256": "938292318d7421c70a0e3b44aff4c1e8dd3982841fc9b2b08f7bc95358e4fc4d",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-12-live-review.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/12-live-review.png",
+      "sourceSha256": "50fbf81b433e800d8148c98b16190fe49d0851944fbae9ab28a65becaad9fe49",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    },
+    {
+      "file": "zh-13-live-saved.webp",
+      "source": "Postcard/outputs/tutorial-guides/2026-11-15/zh/13-live-saved.png",
+      "sourceSha256": "4e5ad3c52af6c6b91caef0eee2a23f4b5c323aa689b93fdb08c2f26a5fec0aec",
+      "sourceDimensions": [
+        1320,
+        2868
+      ],
+      "dimensions": [
+        960,
+        2086
+      ],
+      "language": "zh",
+      "transformation": "保留完整画面，等比缩小并转换 WebP；圈注由网页独立叠加。"
+    }
+  ],
+  "handwritingExamples": [
+    {
+      "file": "handwriting-note-zh.png",
+      "source": "Postcard/Tools/Release/AppStore/Assets/Handwriting/handwriting-cn-note-v1.png",
+      "sha256": "da61df3f5943d6c2b9cfbc2d537aa300de2ff14491f66bc7fa94ae8fed959daa",
+      "dimensions": [
+        1177,
+        1336
+      ],
+      "role": "复用独立寄语字稿，作为可照写的文案示例；不作为当前 App 操作截图证据。"
+    },
+    {
+      "file": "handwriting-note-en.png",
+      "source": "Postcard/Tools/Release/AppStore/Assets/Handwriting/handwriting-en-note-v1.png",
+      "sha256": "71bf6cf9b85a4802a7b777b42770d7dfe1460d879b7a2219018f2e5362c530a5",
+      "dimensions": [
+        1182,
+        1330
+      ],
+      "role": "复用独立寄语字稿，作为可照写的文案示例；不作为当前 App 操作截图证据。"
+    }
+  ]
+}
