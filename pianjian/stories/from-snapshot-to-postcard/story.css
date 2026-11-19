@@ -30,7 +30,6 @@
 .story-prose > p { max-width: 64ch; margin-top: 16px; }
 .story-camera { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 225px); align-items: center; gap: clamp(28px, 6vw, 74px); }
 .story-camera-screen { width: min(100%, 225px); justify-self: center; }
-.story-camera-screen img { width: 100%; height: auto; border-radius: 16px; }
 .story-camera-screen figcaption, .story-version { color: var(--muted); }
 .story-camera-screen figcaption { text-align: center; }
 .story-version { font-size: .92rem; }
