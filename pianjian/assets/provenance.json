@@ -205,31 +205,31 @@
   "website_camera_assets": [
     {
       "website_path": "assets/camera-floor-zh.webp",
-      "source": "Postcard/outputs/app-store/1.2.1/redesign-2026-11-08/iphone/zh-Hans/raw-real-ui/01-camera-floor.png",
-      "source_kind": "real-ui-debug-user-photo-data",
+      "source": "Postcard/outputs/app-store/1.2.1/camera-floor-revision-2026-11-19/web-screen/iphone/zh-Hans/02-camera-floor.png",
+      "source_kind": "marketing-composite",
       "source_dimensions": [
         1206,
         2622
       ],
-      "source_sha256": "368d8e8ac5dc10864e88adc0e0fc44257e36f554781b43e6a272bdd2ebb6a2ea",
-      "sha256": "2313219250e02713f8fc2ac780afa4ecffffab36e0d30a27520b9076d1febc93",
-      "transform": "WebP q88; no crop, resize or retouch.",
-      "build_binding": "Historical marketing capture; not bound to current release build.",
-      "source_build": "20-debug"
+      "source_sha256": "5de4281b75bb63760065bd62f0f3bd2e03bda8a77b31bcaee9835791504af6e9",
+      "sha256": "0783fad42380df840320946df73fd191eddb1256b5df749fd58594e68e41b48d",
+      "transform": "WebP q88 from the screen layer of the 2026-11-19 iPhone artwork; no crop or resize.",
+      "build_binding": "Historical 20-debug base with an offline viewfinder and showcase revision; not bound to the current release build.",
+      "photographer": "Stelios"
     },
     {
       "website_path": "assets/camera-floor-en.webp",
-      "source": "Postcard/outputs/app-store/1.2.1/redesign-2026-11-08/iphone/en/raw-real-ui/02-camera-floor.png",
-      "source_kind": "real-english-ui",
+      "source": "Postcard/outputs/app-store/1.2.1/camera-floor-revision-2026-11-19/web-screen/iphone/en/02-camera-floor.png",
+      "source_kind": "marketing-composite",
       "source_dimensions": [
         1206,
         2622
       ],
-      "source_sha256": "83f9431989415adc723c792b5d28ea4f5f0c9954a2308d8f3c5c5a02114fc964",
-      "sha256": "22907a45409ebd0d89cbf20dc15e2d25acd4b6613e2166722fec1c7fc132e336",
-      "transform": "WebP q88; no crop, resize or retouch.",
-      "source_build": "20-debug",
-      "build_binding": "Historical marketing capture; not bound to current release build."
+      "source_sha256": "7094c77e3660ec19308e1bd51700de3511801146dad9db9d8ead4b475915fee0",
+      "sha256": "7fb33793ec303ce22418bb04ad4e163a822daf20efc36d01dda3d00c6706e1ea",
+      "transform": "WebP q88 from the screen layer of the 2026-11-19 iPhone artwork; no crop or resize.",
+      "build_binding": "Historical 20-debug base with an offline viewfinder and showcase revision; not bound to the current release build.",
+      "photographer": "Stelios"
     }
   ],
   "website_download_icon": {
