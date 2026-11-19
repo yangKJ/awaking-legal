@@ -240,6 +240,16 @@
     "source_sha256": "433a7c6190a7b05be40831da772637a32ce87b0da2668e053adb5f5d2427704d",
     "transform": "Lanczos resize to 512x512 WebP q90; color profile preserved when present."
   },
+  "website_story_cover": {
+    "website_path": "stories/from-snapshot-to-postcard/cover.jpg",
+    "source": "Postcard/outputs/app-store/1.3.0/featuring/direction/camera-to-postcard-cover.png",
+    "source_kind": "built-in-image-generation",
+    "source_sha256": "916b0a597f7ecbb3208920a96c513519a9fb2dfb17c54bbcc0c38942dfa660db",
+    "sha256": "a7d34ecf82668a964a787b21a358523f2092fad2c49fcb413872b653b3e92147",
+    "dimensions": "1440x810",
+    "transform": "JPEG q82 for website delivery and link previews.",
+    "usage": "Editorial concept illustration."
+  },
   "website_paper_assets": [
     {
       "website_path": "assets/paper-choice.webp",

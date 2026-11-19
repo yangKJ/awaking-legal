@@ -117,7 +117,8 @@ h1, h2 { letter-spacing: -.045em; }
 .camera-steps li::marker { color: var(--gold); font-weight: 650; }
 .camera-steps h3 { font-size: 1.02rem; font-weight: 650; }
 .camera-steps p { margin-top: 4px; color: #d6e4d9; font-size: .92rem; }
-.camera-link { display: inline-flex; min-height: 44px; align-items: center; gap: 12px; margin-top: 28px; color: var(--light-ink); font-weight: 650; }
+.camera-links { display: flex; flex-wrap: wrap; gap: 0 24px; margin-top: 28px; }
+.camera-link { display: inline-flex; min-height: 44px; align-items: center; gap: 12px; color: var(--light-ink); font-weight: 650; }
 .camera-media { grid-area: media; min-width: 0; }
 .camera-capture { --phone-width: 300px; margin-inline: auto; }
 .camera-caption { max-width: 380px; margin: 20px auto 0; color: #d6e4d9; font-size: .78rem; text-align: center; }
