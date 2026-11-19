@@ -1,0 +1,51 @@
+/*
+ * story.css
+ * 片笺双语官网
+ *
+ * Created by Condy on 2026/11/19.
+ */
+.story-page { background: var(--paper); }
+.story-header { border-bottom: 1px solid var(--rule); }
+.story-header .navigation { min-height: 64px; }
+.story-language { display: inline-flex; align-items: center; min-height: 44px; color: var(--deep-green); }
+.story-hero { padding-block: clamp(35px, 6vw, 88px); background: var(--ink); color: var(--light-ink); }
+.story-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(28px, 5vw, 70px);
+}
+.story-kicker { margin-bottom: 18px; color: var(--gold); font-weight: 650; }
+.story-hero h1 { font: 600 clamp(2.5rem, 5.1vw, 4.25rem)/1.12 var(--display-font); }
+.story-hero h1:lang(zh-Hans) { letter-spacing: -.04em; }
+.story-hero h1 span { display: block; }
+.story-intro { max-width: 35ch; margin-top: 24px; color: var(--sage); font-size: clamp(1rem, 1.4vw, 1.15rem); }
+.story-cover img { width: 100%; height: auto; border: 1px solid rgba(238, 244, 233, .23); border-radius: 14px; }
+.story-cover figcaption, .story-camera-screen figcaption { margin-top: 10px; font-size: .8rem; }
+.story-cover figcaption { color: var(--sage); text-align: right; }
+.story-body { max-width: 900px; }
+.story-body section { padding-block: clamp(42px, 7vw, 84px); }
+.story-body section + section { border-top: 1px solid var(--rule); }
+.story-prose h2 { font: 600 clamp(1.75rem, 3.4vw, 2.8rem)/1.2 var(--display-font); text-wrap: pretty; }
+.story-prose > p { max-width: 64ch; margin-top: 16px; }
+.story-camera { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 225px); align-items: center; gap: clamp(28px, 6vw, 74px); }
+.story-camera-screen { width: min(100%, 225px); justify-self: center; }
+.story-camera-screen img { width: 100%; height: auto; border-radius: 16px; }
+.story-camera-screen figcaption, .story-version { color: var(--muted); }
+.story-camera-screen figcaption { text-align: center; }
+.story-version { font-size: .92rem; }
+.story-film-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 24px; margin: 25px 0; }
+.story-film-list div { padding-top: 12px; border-top: 2px solid var(--gold); }
+.story-film-list dt { font-weight: 650; }
+.story-film-list dd { margin: 4px 0 0; color: var(--muted); }
+.story-letter blockquote { margin: 28px 0; padding-inline-start: 18px; border-inline-start: 2px solid var(--green); }
+.story-letter blockquote p { font: 600 clamp(1.35rem, 3vw, 1.95rem)/1.4 var(--display-font); }
+.story-letter .button { margin-top: 24px; max-width: 100%; white-space: normal; text-align: center; }
+
+@media (max-width: 780px) {
+  .story-hero-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 570px) {
+  .story-camera, .story-film-list { grid-template-columns: minmax(0, 1fr); }
+}
