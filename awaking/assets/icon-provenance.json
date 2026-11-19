@@ -1,0 +1,34 @@
+{
+  "author": "Condy",
+  "date": "2026-11-15",
+  "source": "当前工程 AppIcon.appiconset/icon_1024.png，工程主图标名称为 AppIcon",
+  "source_sha256": "90ac05ae10c17b42f19248d48d863f1afbfa4992915069012e0bcb5560075c9b",
+  "original_web_copy_sha256": "90ac05ae10c17b42f19248d48d863f1afbfa4992915069012e0bcb5560075c9b",
+  "processing": "原图字节复制或等比缩放与格式转换，不重绘图标",
+  "assets": [
+    {
+      "file": "awaking/assets/app-icon.webp",
+      "size": [
+        256,
+        256
+      ],
+      "sha256": "c660615141892dde53dca13912d6969c48f91784afa533f95b9a33894de14dcf"
+    },
+    {
+      "file": "awaking/zh/assets/web/app-icon-1024-720.webp",
+      "size": [
+        720,
+        720
+      ],
+      "sha256": "72b83649195f97a5aacea0f8b5081e22c88894a47b666e73a8a3ec52efd33f39"
+    },
+    {
+      "file": "awaking/en/assets/web/app-icon-1024-720.webp",
+      "size": [
+        720,
+        720
+      ],
+      "sha256": "72b83649195f97a5aacea0f8b5081e22c88894a47b666e73a8a3ec52efd33f39"
+    }
+  ]
+}

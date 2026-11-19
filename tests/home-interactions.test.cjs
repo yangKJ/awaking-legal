@@ -24,17 +24,22 @@ function fixture() {
         setAttribute(name, value) { if (name === 'aria-selected') this.selected = value; },
         addEventListener(name, handler) { this.handlers[name] = handler; },
         focus() { this.focused = true; },
+        scrollIntoView(options) { this.scrollOptions = options; },
       };
     });
     return { tabs, querySelectorAll: () => tabs };
   });
   const divider = { hidden: true };
   const controls = { hidden: true };
+  const afterTag = { hidden: false };
+  const beforeTag = { hidden: false };
+  const windowHandlers = {};
   const comparison = {
-    amount: null, enhanced: false,
+    amount: null, enhanced: false, width: 900,
     style: { setProperty(name, value) { comparison.amount = value; } },
     classList: { add(name) { comparison.enhanced = name === 'is-interactive'; } },
-    querySelector: () => divider,
+    getBoundingClientRect: () => ({ width: comparison.width }),
+    querySelector: (selector) => ({ '.comparison-divider': divider, '[data-comparison-after]': afterTag, '[data-comparison-before]': beforeTag })[selector],
   };
   const range = { value: '50', addEventListener(name, handler) { this[name] = handler; } };
   const output = { textContent: '' };
@@ -51,8 +56,8 @@ function fixture() {
     querySelector: (selector) => ({ '.mobile-nav': menu, '[data-photo-comparison]': comparison, '.comparison-controls': controls })[selector],
     getElementById: (id) => ({ 'comparison-range': range, 'comparison-value': output })[id] || panels.get(id),
   };
-  vm.runInNewContext(source, { document });
-  return { groups, panels, comparison, range, output, divider, controls, menu, links, summary };
+  vm.runInNewContext(source, { document, window: { addEventListener: (name, handler) => { windowHandlers[name] = handler; } } });
+  return { groups, panels, comparison, range, output, divider, controls, menu, links, summary, afterTag, beforeTag, windowHandlers };
 }
 
 test('编辑过程与设备标签独立保留选择', () => {
@@ -74,6 +79,8 @@ test('方向键循环、Home 与 End 只移动当前组焦点', () => {
   tabs[0].handlers.keydown({ key: 'ArrowLeft', preventDefault() { prevented = true; } });
   assert.equal(prevented, true);
   assert.equal(tabs[2].focused, true);
+  assert.equal(tabs[2].scrollOptions.inline, 'nearest');
+  assert.equal(tabs[2].scrollOptions.block, 'nearest');
   assert.equal(tabs[2].tabIndex, 0);
   tabs[2].handlers.keydown({ key: 'ArrowRight', preventDefault() {} });
   assert.equal(tabs[0].selected, 'true');
@@ -96,6 +103,29 @@ test('对比滑杆覆盖原片、半幅、完整成片三个边界', () => {
     assert.equal(f.comparison.amount, `${amount}%`);
     assert.equal(f.output.textContent, `${amount}%`);
   }
+});
+
+test('边缘收起放不下的 Before／After 标签，缩放窗口后重新判断', () => {
+  const f = fixture();
+  assert.equal(f.afterTag.hidden, false);
+  assert.equal(f.beforeTag.hidden, false);
+  f.range.value = '0';
+  f.range.input();
+  assert.equal(f.afterTag.hidden, true);
+  assert.equal(f.beforeTag.hidden, false);
+  f.range.value = '100';
+  f.range.input();
+  assert.equal(f.afterTag.hidden, false);
+  assert.equal(f.beforeTag.hidden, true);
+  f.range.value = '10';
+  f.range.input();
+  assert.equal(f.afterTag.hidden, false);
+  f.comparison.width = 300;
+  f.windowHandlers.resize();
+  assert.equal(f.afterTag.hidden, true);
+  f.comparison.width = 900;
+  f.windowHandlers.resize();
+  assert.equal(f.afterTag.hidden, false);
 });
 
 test('菜单链接关闭菜单，Escape 关闭后回到触发器', () => {

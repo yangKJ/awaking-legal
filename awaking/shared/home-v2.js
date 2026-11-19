@@ -23,6 +23,7 @@
           : event.key === 'End' ? tabs.length - 1
             : (index + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
         tabs[nextIndex].focus();
+        tabs[nextIndex].scrollIntoView({ block: 'nearest', inline: 'nearest' });
         activate(tabs[nextIndex]);
       });
     });
@@ -32,14 +33,23 @@
   const range = document.getElementById('comparison-range');
   const value = document.getElementById('comparison-value');
 
-  // 没有脚本时仍可并排查看原片和成片，增强后使用原生滑杆。
+  // 没有脚本时并排显示；增强后的透明原生控件让分界线支持触控与键盘。
   if (comparison && range && value) {
+    const afterTag = comparison.querySelector('[data-comparison-after]');
+    const beforeTag = comparison.querySelector('[data-comparison-before]');
     const updateComparison = () => {
       const amount = `${range.value}%`;
       comparison.style.setProperty('--comparison', amount);
       value.textContent = amount;
+      if (afterTag && beforeTag) {
+        const width = comparison.getBoundingClientRect().width;
+        const position = width * Number(range.value) / 100;
+        afterTag.hidden = position < 70;
+        beforeTag.hidden = width - position < 70;
+      }
     };
     range.addEventListener('input', updateComparison);
+    window.addEventListener('resize', updateComparison);
     updateComparison();
     comparison.classList.add('is-interactive');
     comparison.querySelector('.comparison-divider').hidden = false;

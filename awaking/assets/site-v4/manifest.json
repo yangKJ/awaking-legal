@@ -1,0 +1,196 @@
+{
+  "author": "Condy",
+  "date": "2026-11-15",
+  "rights": "用户明确授权购入素材用于官网且无需公开署名；完整原始路径与来源映射保存在本地研究记录。",
+  "scope": "格式压缩与等比缩放，不重绘照片、界面或仿色结果；历史画面不作为新版本或真机验收。",
+  "assets": [
+    {
+      "file": "match-reference.webp",
+      "kind": "购入且授权用于官网的参考照片",
+      "source_sha256": "4aeda124a34b779646a4d8ea8de09e7c14e601347758e3c61649afc04e9942a6",
+      "output_sha256": "87f8d0ac5b36b054def7f95faecf4992c29b66bd17ff96739c9997336ebb4818",
+      "dimensions": [
+        682,
+        1024
+      ]
+    },
+    {
+      "file": "match-original.webp",
+      "kind": "购入且授权用于官网的待调照片",
+      "source_sha256": "59b7bbe2e8de27f73a67873952955d8dc8a3c2edc9851613b4e32d2db5883aa7",
+      "output_sha256": "520185735cd9653fcf7ace67d643c03b36975e86f7ba085cecacfd21646309d3",
+      "dimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "file": "match-result.webp",
+      "kind": "既有 Release 正式 UI 仿色与 JPEG 实际导出",
+      "source_sha256": "9e9dc3a9ea5c8275483cebabc9e4cb664e684341a8d9b15a50acd589d1db99bb",
+      "output_sha256": "70dcdedc3141d28cbb722e846477a12310c1014033afb2c8b9382053492b3849",
+      "dimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "file": "match-ui-zh.webp",
+      "kind": "既有简体中文真实仿色界面",
+      "source_sha256": "711b29624c49d4b74e1b5494810c5ff03ad151c82823b4f20bdfe559c8e8db84",
+      "output_sha256": "5f7fa5dad87db2fa76a4e353c8079c36ad1101866ccdb172478d99815e4edbd7",
+      "dimensions": [
+        1206,
+        2622
+      ]
+    },
+    {
+      "file": "match-ui-en.webp",
+      "kind": "既有英文真实仿色界面",
+      "source_sha256": "8a20d9c5b996b453cb24dd5d759c59f76470ceaf6a4d8146d710a33f0747dc97",
+      "output_sha256": "8ab8b5a95ff21e51cdb1f60d42ce644e584aaa6f04dce3b72bd38514c0fa355d",
+      "dimensions": [
+        1206,
+        2622
+      ]
+    },
+    {
+      "file": "duo-zh.webp",
+      "kind": "既有 Release 1.2.5(33) Duo 展开中文真实界面",
+      "source_sha256": "a1510ab63d1259be107a8e917f93ccfeb760aced10d8cd84ab0484592b9c9c6b",
+      "output_sha256": "f58a020f96098d4af0a0d7910122b8778b9a0806ecbe1f531ad73c38e507eaf2",
+      "dimensions": [
+        1800,
+        1267
+      ]
+    },
+    {
+      "file": "duo-en.webp",
+      "kind": "既有 Release 1.2.5(33) Duo 展开英文真实界面",
+      "source_sha256": "5b51cfbde27739d00488fc4b2643ad57d444ea61278ad99424db5c930aef93bc",
+      "output_sha256": "f5258c7a20994d31d12da4a52f9df6d4ef7ec78a006fa617226875bca208b109",
+      "dimensions": [
+        1800,
+        1267
+      ]
+    },
+    {
+      "file": "inspiration-color-architecture.webp",
+      "kind": "用户购入并授权用于官网的色彩灵感参考，不作为 Awaking 导出效果证明",
+      "source_sha256": "4b7e8470312b13324f152de6775f7dcc90d0cf0c9190b2a110b7d8905a6c142b",
+      "output_sha256": "ea151c53316834ce226c940fbfbcb08cfeb71de76c41173f4faca72f9df0abf7",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "file": "inspiration-summer-flags.webp",
+      "kind": "用户购入并授权用于官网的色彩灵感参考，不作为 Awaking 导出效果证明",
+      "source_sha256": "de7a1cc8f63e28186d9177548f2150b5d75fee2fd02d563b24253dae1e437e02",
+      "output_sha256": "1ef6091a50ee5cf0e93366a3226cad99c650b962654da5e4a65d5ac681f2d28d",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "file": "inspiration-window-flowers.webp",
+      "kind": "用户购入并授权用于官网的色彩灵感参考，不作为 Awaking 导出效果证明",
+      "source_sha256": "9bc955166e4d870691ef91053146e2b6bbd42a2b2c4b8e9d928d5e24ece68933",
+      "output_sha256": "5305fa80b7267953d6256d4ab0b7a15fc72d113a8b1fb5a3bd27ec893159d2ce",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "file": "match-export-zh.webp",
+      "kind": "既有 Release 正式仿色 JPEG 保存成功的中文真实界面",
+      "source_sha256": "c3d3b2c8c9fb689beff654326a600f84c467ad1664484c992e2c53ea96308cda",
+      "output_sha256": "b98bf21d5029916b98715342b524bbb7639e0d3d2b7e38b3eedfff3434505b18",
+      "dimensions": [
+        1206,
+        2622
+      ]
+    },
+    {
+      "file": "feature-filters-zh.webp",
+      "kind": "用户提供的真实上架素材原始界面：滤镜叠加，中文",
+      "capture_scope": "既有原始界面，仅用于官网展示；未将其视为当前审核 Build 的验收",
+      "build_number": "待独立核验",
+      "source_commit": "待独立核验",
+      "source_sha256": "472f7ba0b936bb67167dc2fa008c63fa3eea12843c1570ac16746b66a5713021",
+      "output_sha256": "e2ebf9001436efd9c9d9027bb28a429ce145ae43028e8f740036a6166ae580b9",
+      "dimensions": [
+        1206,
+        2622
+      ]
+    },
+    {
+      "file": "feature-presets-zh.webp",
+      "kind": "用户提供的真实上架素材原始界面：风格方案，中文",
+      "capture_scope": "既有原始界面，仅用于官网展示；未将其视为当前审核 Build 的验收",
+      "build_number": "待独立核验",
+      "source_commit": "待独立核验",
+      "source_sha256": "19dc6c58f395e847b2b6e7f7c562ee2459454c9d85c2b005df5af1b952a34531",
+      "output_sha256": "2881dcc74802fa3c71adc13c02d722b56f7d58b9680d4e054bb514f14b1a03ef",
+      "dimensions": [
+        1206,
+        2622
+      ]
+    },
+    {
+      "file": "feature-layers-zh.webp",
+      "kind": "用户提供的真实上架素材原始界面：图层管理，中文",
+      "capture_scope": "既有原始界面，仅用于官网展示；未将其视为当前审核 Build 的验收",
+      "build_number": "待独立核验",
+      "source_commit": "待独立核验",
+      "source_sha256": "af0f5dee2c6e31181b917e8606e0eac1a322af736feaf110c0a4f9b43b6812b4",
+      "output_sha256": "b29f4dcea55bebee31ca60cccf8e020e63b96c24288f54ffffbe91be4add7f48",
+      "dimensions": [
+        1206,
+        2622
+      ]
+    },
+    {
+      "file": "feature-filters-en.webp",
+      "kind": "用户提供的真实上架素材原始界面：滤镜叠加，英文",
+      "capture_scope": "既有原始界面，仅用于官网展示；未将其视为当前审核 Build 的验收",
+      "build_number": "待独立核验",
+      "source_commit": "待独立核验",
+      "source_sha256": "ae945a0b780ef501064a579aa4e2930c68e2fc301336878991ff2f3222498f63",
+      "output_sha256": "096adc9d3f65eadab4d8ea438cb3f8f05495b2d53009367c52dbc347408f50c5",
+      "dimensions": [
+        1206,
+        2622
+      ]
+    },
+    {
+      "file": "feature-presets-en.webp",
+      "kind": "用户提供的真实上架素材原始界面：风格方案，英文",
+      "capture_scope": "既有原始界面，仅用于官网展示；未将其视为当前审核 Build 的验收",
+      "build_number": "待独立核验",
+      "source_commit": "待独立核验",
+      "source_sha256": "b008a6bf4345ea074af0079668285e4f53e42461d45bc4efa41b496b5457df33",
+      "output_sha256": "26520ef00b16c0b15ee05e14fe1539f825d923592dfa4200dda37c2fdbe112a6",
+      "dimensions": [
+        1206,
+        2622
+      ]
+    },
+    {
+      "file": "feature-layers-en.webp",
+      "kind": "用户提供的真实上架素材原始界面：图层管理，英文",
+      "capture_scope": "既有原始界面，仅用于官网展示；未将其视为当前审核 Build 的验收",
+      "build_number": "待独立核验",
+      "source_commit": "待独立核验",
+      "source_sha256": "7f907262e39cc740237fb46c9046d4ad8d6226cb20df31a00ea230f0a3b08b80",
+      "output_sha256": "10fc91fa507045d140f310fab96789d008f692d9e7a63004a18c74df29b43ff0",
+      "dimensions": [
+        1206,
+        2622
+      ]
+    }
+  ]
+}

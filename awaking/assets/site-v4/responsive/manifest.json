@@ -1,0 +1,277 @@
+{
+  "author": "Condy",
+  "date": "2026-11-18",
+  "scope": "仅等比缩小与 WebP 编码；完整原图继续用于查看细节，不重绘界面或照片。",
+  "assets": [
+    {
+      "file": "editor-local-zh-320.webp",
+      "source": "site-v3/editor-local-zh.webp",
+      "source_sha256": "9ad516074dfd8e4db1db02cf386f67737c574200ce80074d7aed1d87c7d21e3f",
+      "output_sha256": "3e620d30c02008adab415758a283d8d8c7b68bebb60ad9ca8e0f60576ba028f6",
+      "width": 320,
+      "height": 696,
+      "bytes": 29054
+    },
+    {
+      "file": "editor-local-zh-640.webp",
+      "source": "site-v3/editor-local-zh.webp",
+      "source_sha256": "9ad516074dfd8e4db1db02cf386f67737c574200ce80074d7aed1d87c7d21e3f",
+      "output_sha256": "39fb41a54925b3dfd2a149b617f02f923801fa4e1e3aaee45d9372bde1ea4a1b",
+      "width": 640,
+      "height": 1391,
+      "bytes": 81416
+    },
+    {
+      "file": "editor-local-en-320.webp",
+      "source": "site-v3/editor-local-en.webp",
+      "source_sha256": "f938f2f83c371fe4522f0564b9a5503e346440b4848f18df8e4ded9ca02213b2",
+      "output_sha256": "f53b99c36b59e5d45cc162b8a3e285adfc919fdc8623c9023f0a8b78ea7b0235",
+      "width": 320,
+      "height": 696,
+      "bytes": 29106
+    },
+    {
+      "file": "editor-local-en-640.webp",
+      "source": "site-v3/editor-local-en.webp",
+      "source_sha256": "f938f2f83c371fe4522f0564b9a5503e346440b4848f18df8e4ded9ca02213b2",
+      "output_sha256": "558f313a9a7fe92e220ef1a8c6757869fcd7384405a67870f38dd957ce807a35",
+      "width": 640,
+      "height": 1391,
+      "bytes": 77328
+    },
+    {
+      "file": "iphone-16-pro-black-titanium-portrait-280.webp",
+      "source": "site-v3/iphone-16-pro-black-titanium-portrait.png",
+      "source_sha256": "f56d27cb5b70d5adeb8f5fcb7e5c386ffb441a6a23417d0f3f62cbbd93823962",
+      "output_sha256": "bc8bfa36a783046d49e55b6b8d0e445517690503e29bb2fc85618e84cea8ae78",
+      "width": 280,
+      "height": 562,
+      "bytes": 4970
+    },
+    {
+      "file": "iphone-16-pro-black-titanium-portrait-560.webp",
+      "source": "site-v3/iphone-16-pro-black-titanium-portrait.png",
+      "source_sha256": "f56d27cb5b70d5adeb8f5fcb7e5c386ffb441a6a23417d0f3f62cbbd93823962",
+      "output_sha256": "3bf319d837b25414a953e8d00df9e7189f320f5ad8c06608109485af19b4bc4e",
+      "width": 560,
+      "height": 1124,
+      "bytes": 10510
+    },
+    {
+      "file": "feature-filters-zh-320.webp",
+      "source": "site-v4/feature-filters-zh.webp",
+      "source_sha256": "e2ebf9001436efd9c9d9027bb28a429ce145ae43028e8f740036a6166ae580b9",
+      "output_sha256": "c66b78cf087f979e97e90ba8b9c5ff4713acdeddcd8b73d80ec726963645dae2",
+      "width": 320,
+      "height": 696,
+      "bytes": 34802
+    },
+    {
+      "file": "feature-filters-zh-640.webp",
+      "source": "site-v4/feature-filters-zh.webp",
+      "source_sha256": "e2ebf9001436efd9c9d9027bb28a429ce145ae43028e8f740036a6166ae580b9",
+      "output_sha256": "d841ec169f42cd813009518e66645d85b01cc1e4fec8eb573e1de4ab93b7531b",
+      "width": 640,
+      "height": 1391,
+      "bytes": 94292
+    },
+    {
+      "file": "feature-filters-en-320.webp",
+      "source": "site-v4/feature-filters-en.webp",
+      "source_sha256": "096adc9d3f65eadab4d8ea438cb3f8f05495b2d53009367c52dbc347408f50c5",
+      "output_sha256": "1810870713887551242bd210a2646ea0ca97e7678c593e99b93f69b051db7356",
+      "width": 320,
+      "height": 696,
+      "bytes": 34996
+    },
+    {
+      "file": "feature-filters-en-640.webp",
+      "source": "site-v4/feature-filters-en.webp",
+      "source_sha256": "096adc9d3f65eadab4d8ea438cb3f8f05495b2d53009367c52dbc347408f50c5",
+      "output_sha256": "729e4dc9ae4842122d79a0b5e5fd80dd2f57f296ed1ff1fb76447d1f217a8052",
+      "width": 640,
+      "height": 1391,
+      "bytes": 94134
+    },
+    {
+      "file": "feature-presets-zh-320.webp",
+      "source": "site-v4/feature-presets-zh.webp",
+      "source_sha256": "2881dcc74802fa3c71adc13c02d722b56f7d58b9680d4e054bb514f14b1a03ef",
+      "output_sha256": "c8b2b139d8c0952984a7d99bb6a2e02d59ef65ed8b529a1442cb51d70bc73ad8",
+      "width": 320,
+      "height": 696,
+      "bytes": 22782
+    },
+    {
+      "file": "feature-presets-zh-640.webp",
+      "source": "site-v4/feature-presets-zh.webp",
+      "source_sha256": "2881dcc74802fa3c71adc13c02d722b56f7d58b9680d4e054bb514f14b1a03ef",
+      "output_sha256": "d02ca1275c40d66e0c1530d32deae4ed9c7cf180d258d4fec27b3f8c793c688d",
+      "width": 640,
+      "height": 1391,
+      "bytes": 59536
+    },
+    {
+      "file": "feature-presets-en-320.webp",
+      "source": "site-v4/feature-presets-en.webp",
+      "source_sha256": "26520ef00b16c0b15ee05e14fe1539f825d923592dfa4200dda37c2fdbe112a6",
+      "output_sha256": "fc844984edb37292fa7f5ab7c0f6427074cf273d9f53b60059958dd43bfa2e80",
+      "width": 320,
+      "height": 696,
+      "bytes": 25098
+    },
+    {
+      "file": "feature-presets-en-640.webp",
+      "source": "site-v4/feature-presets-en.webp",
+      "source_sha256": "26520ef00b16c0b15ee05e14fe1539f825d923592dfa4200dda37c2fdbe112a6",
+      "output_sha256": "644f2ff686b6a11876f68d7470cba5f29528efb90f8bf0ec761af5b29044c640",
+      "width": 640,
+      "height": 1391,
+      "bytes": 57908
+    },
+    {
+      "file": "feature-layers-zh-320.webp",
+      "source": "site-v4/feature-layers-zh.webp",
+      "source_sha256": "b29f4dcea55bebee31ca60cccf8e020e63b96c24288f54ffffbe91be4add7f48",
+      "output_sha256": "134e944fe8ba2640e13dd5c0351bef5e2ec3ff1491c2f7da4892101ba1c25ac7",
+      "width": 320,
+      "height": 696,
+      "bytes": 18294
+    },
+    {
+      "file": "feature-layers-zh-640.webp",
+      "source": "site-v4/feature-layers-zh.webp",
+      "source_sha256": "b29f4dcea55bebee31ca60cccf8e020e63b96c24288f54ffffbe91be4add7f48",
+      "output_sha256": "981b4769d165815f36965757b7ad412d984206957ba5f7462a11971e0b28eadb",
+      "width": 640,
+      "height": 1391,
+      "bytes": 45700
+    },
+    {
+      "file": "feature-layers-en-320.webp",
+      "source": "site-v4/feature-layers-en.webp",
+      "source_sha256": "10fc91fa507045d140f310fab96789d008f692d9e7a63004a18c74df29b43ff0",
+      "output_sha256": "1e0e662cae6209b36a3d5559bcd9078d6c94e68b8862c5b3efcbde0966d70a67",
+      "width": 320,
+      "height": 696,
+      "bytes": 21148
+    },
+    {
+      "file": "feature-layers-en-640.webp",
+      "source": "site-v4/feature-layers-en.webp",
+      "source_sha256": "10fc91fa507045d140f310fab96789d008f692d9e7a63004a18c74df29b43ff0",
+      "output_sha256": "08f31dc1f1f8a3844bdfd09dee708f5efe96e9133961b37f0ea51141cef44142",
+      "width": 640,
+      "height": 1391,
+      "bytes": 51282
+    },
+    {
+      "file": "duo-zh-600.webp",
+      "source": "site-v4/duo-zh.webp",
+      "source_sha256": "f58a020f96098d4af0a0d7910122b8778b9a0806ecbe1f531ad73c38e507eaf2",
+      "output_sha256": "051aa71e04411d96c56c510058b2df84601bfbe83aa2026850c636f69f9d0f91",
+      "width": 600,
+      "height": 422,
+      "bytes": 14534
+    },
+    {
+      "file": "duo-zh-1200.webp",
+      "source": "site-v4/duo-zh.webp",
+      "source_sha256": "f58a020f96098d4af0a0d7910122b8778b9a0806ecbe1f531ad73c38e507eaf2",
+      "output_sha256": "1c94eaa13c53c6b930f4e4f4f33c09c6a6419da390965a8b2bd5dab6c412ab3d",
+      "width": 1200,
+      "height": 845,
+      "bytes": 40190
+    },
+    {
+      "file": "duo-en-600.webp",
+      "source": "site-v4/duo-en.webp",
+      "source_sha256": "f5258c7a20994d31d12da4a52f9df6d4ef7ec78a006fa617226875bca208b109",
+      "output_sha256": "5ff6821fced468d5a87b825d0a25df7781309668c50e70548528972369b3cb8b",
+      "width": 600,
+      "height": 422,
+      "bytes": 15174
+    },
+    {
+      "file": "duo-en-1200.webp",
+      "source": "site-v4/duo-en.webp",
+      "source_sha256": "f5258c7a20994d31d12da4a52f9df6d4ef7ec78a006fa617226875bca208b109",
+      "output_sha256": "95e3d73983b5f9950624b51e73af680ff74faa8e5b16052ab0dfa3a6539deb48",
+      "width": 1200,
+      "height": 845,
+      "bytes": 40356
+    },
+    {
+      "file": "inspiration-color-architecture-288.webp",
+      "source": "site-v4/inspiration-color-architecture.webp",
+      "source_sha256": "ea151c53316834ce226c940fbfbcb08cfeb71de76c41173f4faca72f9df0abf7",
+      "output_sha256": "1ebc3db66b5b06bd3d639de5744d2d8b652060c10e67136be4c6e88e27836dfb",
+      "width": 288,
+      "height": 432,
+      "bytes": 18390
+    },
+    {
+      "file": "inspiration-color-architecture-576.webp",
+      "source": "site-v4/inspiration-color-architecture.webp",
+      "source_sha256": "ea151c53316834ce226c940fbfbcb08cfeb71de76c41173f4faca72f9df0abf7",
+      "output_sha256": "3e8e5dcf4f8010d196d8ac8195cdb1a64aea02d8ad089391371f6cf896351906",
+      "width": 576,
+      "height": 864,
+      "bytes": 46018
+    },
+    {
+      "file": "inspiration-summer-flags-288.webp",
+      "source": "site-v4/inspiration-summer-flags.webp",
+      "source_sha256": "1ef6091a50ee5cf0e93366a3226cad99c650b962654da5e4a65d5ac681f2d28d",
+      "output_sha256": "a031ee81978597b2bdcaac3aabf312eacf1c22fd36b237cc62cc7c0e04dc73b2",
+      "width": 288,
+      "height": 432,
+      "bytes": 9376
+    },
+    {
+      "file": "inspiration-summer-flags-576.webp",
+      "source": "site-v4/inspiration-summer-flags.webp",
+      "source_sha256": "1ef6091a50ee5cf0e93366a3226cad99c650b962654da5e4a65d5ac681f2d28d",
+      "output_sha256": "960439217679b2ee508eb19a0211a31ad3ccb6927e80b4b6d77e3904b4292f39",
+      "width": 576,
+      "height": 864,
+      "bytes": 25698
+    },
+    {
+      "file": "inspiration-window-flowers-288.webp",
+      "source": "site-v4/inspiration-window-flowers.webp",
+      "source_sha256": "5305fa80b7267953d6256d4ab0b7a15fc72d113a8b1fb5a3bd27ec893159d2ce",
+      "output_sha256": "574b9bf953fbe173c3c052a6beab38e8e93558cbb4ac2a036b5a12ff6633730c",
+      "width": 288,
+      "height": 432,
+      "bytes": 22090
+    },
+    {
+      "file": "inspiration-window-flowers-576.webp",
+      "source": "site-v4/inspiration-window-flowers.webp",
+      "source_sha256": "5305fa80b7267953d6256d4ab0b7a15fc72d113a8b1fb5a3bd27ec893159d2ce",
+      "output_sha256": "00db5b757ac4f02c2dff5e803df36534e4000ec8d3ceddb33d8d70c860489c25",
+      "width": 576,
+      "height": 864,
+      "bytes": 52498
+    },
+    {
+      "file": "work-architecture-640.webp",
+      "source": "site-v2/work-architecture.webp",
+      "source_sha256": "c68f28b263b3c9c752b50ad976b7059da2e5a21fbc3d94ae32e2c23d8cd6f18b",
+      "output_sha256": "2b3efd825300876b8ffab94a72c4e59001e0149f52fe5cabc94c4d8fab494176",
+      "width": 640,
+      "height": 427,
+      "bytes": 26098
+    },
+    {
+      "file": "work-architecture-1024.webp",
+      "source": "site-v2/work-architecture.webp",
+      "source_sha256": "c68f28b263b3c9c752b50ad976b7059da2e5a21fbc3d94ae32e2c23d8cd6f18b",
+      "output_sha256": "d9ff9b869628f13448c66258679b27a83ad5271ecc6d42f52b7f32e645674adc",
+      "width": 1024,
+      "height": 683,
+      "bytes": 66172
+    }
+  ]
+}

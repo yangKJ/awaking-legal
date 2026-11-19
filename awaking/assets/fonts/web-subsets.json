@@ -1,0 +1,27 @@
+{
+  "author": "Condy",
+  "date": "2026-11-18",
+  "scope": "Archivo 保留拉丁字符与常用标点；Newsreader 仅供 Awaking 字标。保留原字体、字形设计、可变轴、版权与 OFL 许可。",
+  "assets": [
+    {
+      "file": "archivo-latin.woff2",
+      "source": "archivo-variable.woff2",
+      "source_sha256": "2b54f600e80441c218bb8d3d4dc21fd9e432557220a2275a6bffca570bfba1f9",
+      "output_sha256": "976463e6a9ff7749126fbc77be9f76f0a59d2fefc3d62cfe36ed6854cd9c8525",
+      "bytes": 135552,
+      "glyphs": 456,
+      "variable_axes_preserved": true,
+      "outline_and_advance_checks": "400/550/600 字重逐字形一致；字标额外按 opsz=32 检查"
+    },
+    {
+      "file": "newsreader-wordmark.woff2",
+      "source": "newsreader-italic-variable.woff2",
+      "source_sha256": "d6d9c4f282170c91abe110db463ceba214bc11c947d27204d5a2543fbb7baf5a",
+      "output_sha256": "f248d31e6100dd999d79c9e4d997a9df2ac5f091055c715eb9c25d45398a1c1c",
+      "bytes": 9408,
+      "glyphs": 8,
+      "variable_axes_preserved": true,
+      "outline_and_advance_checks": "400/550/600 字重逐字形一致；字标额外按 opsz=32 检查"
+    }
+  ]
+}

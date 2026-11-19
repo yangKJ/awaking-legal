@@ -97,5 +97,20 @@
       "sha256": "b15f5caea57a4081a4534a751c9ff94ac3ad6b893a974efd0016554a3bfbfb8c",
       "kind": "ai-created-brand-concept"
     }
-  ]
+  ],
+  "device_frame": {
+    "output": "iphone-16-pro-black-titanium-portrait.png",
+    "source": "用户于 2026-11-15 提供的 iPhone 16 Pro 黑色钛金属透明外壳",
+    "source_sha256": "f56d27cb5b70d5adeb8f5fcb7e5c386ffb441a6a23417d0f3f62cbbd93823962",
+    "output_sha256": "f56d27cb5b70d5adeb8f5fcb7e5c386ffb441a6a23417d0f3f62cbbd93823962",
+    "width": 1406,
+    "height": 2822,
+    "screen": {
+      "left": 102,
+      "top": 100,
+      "width": 1206,
+      "height": 2622
+    },
+    "usage": "仅通过 CSS 装饰中英文真实编辑界面；原始截图字节、比例与正文保持不变"
+  }
 }
