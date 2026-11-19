@@ -21,8 +21,6 @@
 .story-hero h1 span { display: block; }
 .story-intro { max-width: 35ch; margin-top: 24px; color: var(--sage); font-size: clamp(1rem, 1.4vw, 1.15rem); }
 .story-cover img { width: 100%; height: auto; border: 1px solid rgba(238, 244, 233, .23); border-radius: 14px; }
-.story-cover figcaption, .story-camera-screen figcaption { margin-top: 10px; font-size: .8rem; }
-.story-cover figcaption { color: var(--sage); text-align: right; }
 .story-body { max-width: 900px; }
 .story-body section { padding-block: clamp(42px, 7vw, 84px); }
 .story-body section + section { border-top: 1px solid var(--rule); }
@@ -31,7 +29,7 @@
 .story-camera { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 225px); align-items: center; gap: clamp(28px, 6vw, 74px); }
 .story-camera-screen { width: min(100%, 225px); justify-self: center; }
 .story-camera-screen figcaption, .story-version { color: var(--muted); }
-.story-camera-screen figcaption { text-align: center; }
+.story-camera-screen figcaption { margin-top: 10px; font-size: .8rem; text-align: center; }
 .story-version { font-size: .92rem; }
 .story-film-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 24px; margin: 25px 0; }
 .story-film-list div { padding-top: 12px; border-top: 2px solid var(--gold); }
