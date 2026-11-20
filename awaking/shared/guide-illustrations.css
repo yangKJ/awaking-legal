@@ -11,7 +11,9 @@
 .guide-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: end; margin-top: 24px; }
 .guide-photo-grid figure { margin: 0; }
 .guide-photo-grid img { width: 100%; height: auto; max-height: 300px; object-fit: contain; }
-.guide-photo-grid figcaption, .guide-step-layout figcaption { margin-top: 12px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.guide-photo-grid figcaption, .guide-step-layout figcaption, .guide-wide-figure figcaption { margin-top: 12px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.guide-wide-figure { margin: 24px 0; }
+.guide-wide-figure img { width: 100%; }
 .guide-step-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .9fr); gap: 32px; align-items: center; margin-top: 24px; }
 .guide-step-layout > * { min-width: 0; }
 .guide-illustrated-step li + li { margin-top: 12px; }

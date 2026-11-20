@@ -1,7 +1,23 @@
 {
   "author": "Condy",
   "date": "2026-11-18",
-  "scope": "仅等比缩小与 WebP 编码；完整原图继续用于查看细节，不重绘界面或照片。",
+  "scope": "展示素材按比例优化，完整原图继续用于查看细节。Duo 展开场景使用合成外框，界面与照片均为原始内容。",
+  "duo_composite": {
+    "date": "2026-11-20",
+    "capture": "Awaking Release 1.2.5 (33)",
+    "provider": "Hoverify",
+    "frame": "Night Sky · Inner Open Landscape",
+    "frame_source": "https://tryhoverify.com/images/devices/iphone_duo_open/night_sky.webp",
+    "license": "https://tryhoverify.com/tools/device-frames/license/",
+    "frame_source_sha256": "fab36d0e98e956e0913b8910877d141a8a8b98fedaadb5f3ff2759cd23cdaed9",
+    "screen_bounds": [
+      78,
+      78,
+      2853,
+      2007
+    ],
+    "scope": "首页仿色与局部编辑指南使用完整中英文实拍叠入横向设备外框。官网只包含合成图，透明外框原图留在本地。"
+  },
   "assets": [
     {
       "file": "editor-local-zh-320.webp",
@@ -272,6 +288,78 @@
       "width": 1024,
       "height": 683,
       "bytes": 66172
+    },
+    {
+      "file": "duo-framed-zh-600.webp",
+      "source": "outputs/app-store/1.2.5/landscape-2026-11-01-v3/raw-real-ui/duo/zh-Hans/02-color-match.png",
+      "source_sha256": "a1510ab63d1259be107a8e917f93ccfeb760aced10d8cd84ab0484592b9c9c6b",
+      "output_sha256": "b788e85df42739f50431c79c22b86b7158676f1e2d43535d765a84ca3a0fd941",
+      "width": 600,
+      "height": 431,
+      "bytes": 21602
+    },
+    {
+      "file": "duo-framed-zh-1200.webp",
+      "source": "outputs/app-store/1.2.5/landscape-2026-11-01-v3/raw-real-ui/duo/zh-Hans/02-color-match.png",
+      "source_sha256": "a1510ab63d1259be107a8e917f93ccfeb760aced10d8cd84ab0484592b9c9c6b",
+      "output_sha256": "7e121f6315445c39b855cacdaf28d64d3925f03a104bcafd2ef9a2782c8f35af",
+      "width": 1200,
+      "height": 863,
+      "bytes": 58814
+    },
+    {
+      "file": "duo-framed-en-600.webp",
+      "source": "outputs/app-store/1.2.5/landscape-2026-11-01-v3/raw-real-ui/duo/en-US/02-color-match.png",
+      "source_sha256": "5b51cfbde27739d00488fc4b2643ad57d444ea61278ad99424db5c930aef93bc",
+      "output_sha256": "59709afbe4b28f5a62fc71b0279a16cdf3856e7e976a47f7223e15168d99341e",
+      "width": 600,
+      "height": 431,
+      "bytes": 22308
+    },
+    {
+      "file": "duo-framed-en-1200.webp",
+      "source": "outputs/app-store/1.2.5/landscape-2026-11-01-v3/raw-real-ui/duo/en-US/02-color-match.png",
+      "source_sha256": "5b51cfbde27739d00488fc4b2643ad57d444ea61278ad99424db5c930aef93bc",
+      "output_sha256": "55b73883e843847ce8b0a33aa6712ed29b00897709a2d0b9c493905081375f71",
+      "width": 1200,
+      "height": 863,
+      "bytes": 59672
+    },
+    {
+      "file": "duo-local-masks-zh-720.webp",
+      "source": "outputs/app-store/1.2.5/landscape-2026-11-01-v3/raw-real-ui/duo/zh-Hans/03-local-masks.png",
+      "source_sha256": "370cab44034e535bc788c55968c996658afa8d71816a1220aee102a68806bc59",
+      "output_sha256": "b2dcf3998b167b14bc75d6a700afa4987d52fe75dad5c3ed180fd9e11fc92aa3",
+      "width": 720,
+      "height": 518,
+      "bytes": 44430
+    },
+    {
+      "file": "duo-local-masks-zh-1440.webp",
+      "source": "outputs/app-store/1.2.5/landscape-2026-11-01-v3/raw-real-ui/duo/zh-Hans/03-local-masks.png",
+      "source_sha256": "370cab44034e535bc788c55968c996658afa8d71816a1220aee102a68806bc59",
+      "output_sha256": "ca6082c30c77bd36d3ab8788e52ed94408ff71bb20cc09a3a7a141b0891bd478",
+      "width": 1440,
+      "height": 1035,
+      "bytes": 113568
+    },
+    {
+      "file": "duo-local-masks-en-720.webp",
+      "source": "outputs/app-store/1.2.5/landscape-2026-11-01-v3/raw-real-ui/duo/en-US/03-local-masks.png",
+      "source_sha256": "a9423c3b9ecb9fa8d7ca91900c41f0d63ff834eebb63b73e08fcd5f19bdd438a",
+      "output_sha256": "a8de1a00abd15c92ac5637458f64c50c1f05fbfdbb7d8c2a6ba5e5efc865a9d9",
+      "width": 720,
+      "height": 518,
+      "bytes": 46424
+    },
+    {
+      "file": "duo-local-masks-en-1440.webp",
+      "source": "outputs/app-store/1.2.5/landscape-2026-11-01-v3/raw-real-ui/duo/en-US/03-local-masks.png",
+      "source_sha256": "a9423c3b9ecb9fa8d7ca91900c41f0d63ff834eebb63b73e08fcd5f19bdd438a",
+      "output_sha256": "c447e7e846276905617be312cbdd5e0c800fa5dc7727e44e817b446de7cdddb9",
+      "width": 1440,
+      "height": 1035,
+      "bytes": 115274
     }
   ]
 }
