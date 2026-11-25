@@ -202,6 +202,35 @@
     "sha256": "f56d27cb5b70d5adeb8f5fcb7e5c386ffb441a6a23417d0f3f62cbbd93823962",
     "transform": "Byte-for-byte copy; screenshot is positioned separately with CSS."
   },
+  "website_handwriting_duo": {
+    "source_kind": "marketing-composite",
+    "transform": "Place the existing long-letter lettering on the corresponding 2853×2007 simulator capture, composite into the landscape frame, and resize to 1440×1035 WebP q86.",
+    "frame": {
+      "provider": "Hoverify",
+      "name": "Night Sky · Inner Open Landscape",
+      "source": "https://tryhoverify.com/images/devices/iphone_duo_open/night_sky.webp",
+      "license": "https://tryhoverify.com/tools/device-frames/license/",
+      "screen_bounds": [78, 78, 2853, 2007]
+    },
+    "assets": [
+      {
+        "website_path": "assets/handwriting-duo-zh.webp",
+        "source": "Postcard/outputs/duo/zh-Hans/3/Screenshot iPhone Duo 2026-11-24 at 15.26.18.png",
+        "source_sha256": "2d639c09e466b44504371f6115495438969381b56a643831742845cec2a01686",
+        "lettering_source": "Postcard/outputs/app-store/1.3.0/duo-paper-series-2026-11-24/letter-revision/03-freehand.png",
+        "lettering_sha256": "2af75c0d0aa4fdcf76153b7d53f19753a470ab883b7c255e2bcd922edd596279",
+        "sha256": "b411c5f8547c672337ced57f69437d45eebf1df3f3574a9818d1a0b8412d031a"
+      },
+      {
+        "website_path": "assets/handwriting-duo-en.webp",
+        "source": "Postcard/outputs/duo/en/3/Screenshot iPhone Duo 2026-11-24 at 16.17.30.png",
+        "source_sha256": "be01e783ed05f48c62162902a2e7c44fd16b723fda2ae06cc54da806991011a2",
+        "lettering_source": "Postcard/outputs/app-store/1.3.0/duo-paper-series-2026-11-24/visual-final/en-US/03-freehand.png",
+        "lettering_sha256": "cbb70675c2c2d730cb3a33ef62bb3da0d0ac3d3dc6a0de596ddb269f0facee13",
+        "sha256": "c18bc0ae4ef91d4fe47c59c7a5b9d1bab5912815eb01070b459a32da849b055f"
+      }
+    ]
+  },
   "website_camera_assets": [
     {
       "website_path": "assets/camera-floor-zh.webp",
