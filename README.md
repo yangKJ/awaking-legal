@@ -1,168 +1,55 @@
-# Awaking 产品官网与法律页面
+# Awaking 官网
 
-本仓库通过 GitHub Pages 承载 Awaking、照惜和片笺的产品官网、技术支持与法律页面。仓库根目录的 `index.html` 只负责产品入口，不作为任何单一 App 的产品事实来源。
+**把照片，调成你的表达。**
 
-## 产品入口
+Awaking 是面向 iPhone 和 iPad 的照片编辑器。借鉴参考照片的色彩与影调，按自己的照片调整强度，再用蒙版、画笔和图层精修。照片编辑在设备上完成。
 
-| 产品 | 目录 | 线上入口 |
-|---|---|---|
-| Awaking | `awaking/` | `https://yangkj.github.io/awaking-legal/awaking/` |
-| 照惜 | `zhaoxi/` | `https://yangkj.github.io/awaking-legal/zhaoxi/` |
-| 片笺 / Postcard | `pianjian/` | `https://yangkj.github.io/awaking-legal/pianjian/` |
+[中文官网](https://awakingapp.com/awaking/zh/) · [英文官网](https://awakingapp.com/awaking/en/) · [在 App Store 查看](https://apps.apple.com/app/id6760924133)
 
-各产品独立维护品牌视觉、功能边界、隐私披露和用户协议。不要跨产品复制功能声明、购买规则或数据处理口径。
+![Awaking 官网首屏的海岸摄影](awaking/assets/site-v2/hero-coast.webp)
 
-## 2026-11-18 首页精修与本地验收
+## 从一张照片开始
 
-保留摄影首末屏与中间顺序，完成双语用途表达、统一容器、原图查看、响应式图片和字体子集优化。双语七视口关键布局与本地操作验收通过；Taste 全量模板门禁保留 31 项规则差异，未标记为 PASS。详见 [本轮验收记录](design-qa/2026-11-18-taste/README.md)。按用户要求未暂存、未提交、未推送或发布，既有暂存内容保持。
+这个例子用泳池与建筑的青绿色，为海岸照片寻找配色方向。对照原图与实际导出的 JPEG，可以看到海水和沙地的色彩变化。指南也演示怎样选择参考、调整强度，以及如何判断哪些细节值得继续精修。
 
-## 2026-11-15 当前本地交付
+| 海岸原图 | Awaking 实际导出 |
+| --- | --- |
+| ![海滩与白色阳伞的未编辑原图](awaking/assets/site-v4/match-original.webp) | ![借鉴青绿色参考配色后的海岸照片](awaking/assets/site-v4/match-result.webp) |
 
-Awaking 双语首页首末屏恢复既有海岸摄影与建筑背景设计，中间板块保留。参考照片与图片内对比手柄集中到仿色图文专题；首页和专题继续复用 `home-v2.js`。首页使用 `awaking/shared/home-v3.css`，真实界面配用户提供的 iPhone 外壳，Duo 展开界面按自身完整比例呈现。图标以工程当前 `AppIcon` 为准；来源见 `awaking/assets/icon-provenance.json`。
+展开 iPhone Duo 后，横向界面把照片和编辑工具并排呈现。竖向展开时，调整区移到底部，手上的编辑可以接着做。
 
-首屏后的三步概述已取消，操作说明由专题四步图文承接。首页先展示 Duo 左文右图及其下方的色彩灵感，再展示紧凑并列的四项编辑能力，局部蒙版排在第一位。独立问答区已移除，支持与隐私入口仍在页脚。支持页与服务条款的中英文免费导出说明均已在本地统一，公开页面仍须发布后重新核对。
+![Awaking 在展开的 iPhone Duo 上并排显示照片与仿色工具](awaking/assets/site-v4/responsive/duo-framed-zh-600.webp)
 
-Awaking 与片笺各新增两组中英文使用指南，首页提供入口；仿色指南已加入四步图文示例，使用 `awaking/shared/guide-illustrations.css`。新增两份产品站点地图与根站点地图索引。`PRODUCT.md` 保存产品事实，`DESIGN.md` 保存当前设计合同。下方历史章节用于追溯，不代表当前线上状态。
+[仿色案例与原图对比](https://awakingapp.com/awaking/zh/guides/reference-color-matching/#case) · [用蒙版调整照片的一部分](https://awakingapp.com/awaking/zh/guides/local-photo-adjustments/)
 
-前序本地设计提交已由用户 reset，当前恢复与说明修正仅保留在工作文件，未重新暂存或提交；没有推送或部署。GitHub Pages 线上内容需在用户推送且部署完成后再核对，不把本地截图当作线上收录或 AI 推荐证据。
-
-## Awaking 新版双语站点
-
-Awaking 下一阶段官网使用中文与英文两套同构页面，共享视觉系统与最小脚本：
-
-```text
-awaking/
-├── zh/
-│   ├── index.html
-│   ├── support.html
-│   ├── privacy-policy.html
-│   ├── terms-of-service.html
-│   └── assets/
-│       └── web/
-├── en/
-│   ├── index.html
-│   ├── support.html
-│   ├── privacy-policy.html
-│   ├── terms-of-service.html
-│   └── assets/
-│       └── web/
-└── shared/
-    ├── home-v2.css
-    ├── home-v2.js
-    ├── site.css
-    └── site.js
-```
-
-- `zh/`：简体中文官网、支持、隐私政策和用户协议。
-- `en/`：英文同构页面；语言切换保持在当前对应页面。
-- `shared/`：双语页面共用的响应式样式和版本展示脚本。
-- 首页使用 `home-v2.css` / `home-v2.js`；支持与法律页继续使用 `site.css`，各表面独立维护。
-- `assets/web/`：网页实际加载的轻量 WebP；源 PNG 只作为设计母版，不直接进入首屏加载链。
-
-### 新版预备地址
+## 官网入口
 
 | 页面 | 简体中文 | English |
-|---|---|---|
-| 官网 | `/awaking/zh/` | `/awaking/en/` |
-| 技术支持 | `/awaking/zh/support.html` | `/awaking/en/support.html` |
-| 隐私政策 | `/awaking/zh/privacy-policy.html` | `/awaking/en/privacy-policy.html` |
-| 用户协议 | `/awaking/zh/terms-of-service.html` | `/awaking/en/terms-of-service.html` |
+| --- | --- | --- |
+| 官网 | [首页](https://awakingapp.com/awaking/zh/) | [Home](https://awakingapp.com/awaking/en/) |
+| 技术支持 | [权限、导出与购买问题](https://awakingapp.com/awaking/zh/support.html) | [Technical Support](https://awakingapp.com/awaking/en/support.html) |
+| 隐私政策 | [隐私政策](https://awakingapp.com/awaking/zh/privacy-policy.html) | [Privacy Policy](https://awakingapp.com/awaking/en/privacy-policy.html) |
+| 用户协议 | [用户协议](https://awakingapp.com/awaking/zh/terms-of-service.html) | [Terms of Service](https://awakingapp.com/awaking/en/terms-of-service.html) |
 
-Awaking App Store：`https://apps.apple.com/app/id6760924133`
+根入口按浏览器语言进入 Awaking，页面内可切换中英文。旧版 App 里的根级地址继续提供 Awaking 1.0 的历史资料和现行页面入口。[1.0 技术支持](support.html) · [1.0 隐私政策](privacy-policy.html) · [1.0 用户协议](terms-of-service.html)
 
-## 新旧站并行策略
+## 本地维护
 
-新版 `zh/`、`en/` 页面当前是下一版本的预备站点。旧版页面继续保留，不在本次重写中删除、覆盖或重定向：
+- `awaking/zh/` 和 `awaking/en/` 各自维护首页、指南、支持、隐私和协议。语言切换应落到同一内容的译版。
+- `awaking/shared/` 存放共用样式与脚本。照片、真实界面与设备外框的出处见 [素材清单](awaking/assets/site-v4/responsive/manifest.json)。
+- `awaking/sitemap.xml` 列出 Awaking 的正式页面。新增页面时同步核对正式网址、语言替代链接、站内跳转和公开图片。
 
-- `/awaking/index.html`
-- `/awaking/support.html`
-- `/awaking/privacy-policy.html`
-- `/awaking/terms-of-service.html`
-- 根目录历史法律页面
-
-在新版 App、App Store 产品页和 Awaking Pro 商品全部完成真实发布门禁之前，不应把旧 canonical URL 提前切换到新版，也不要仅因页面代码完成就宣称新版已公开上线。
-
-正式切换必须在同一发布批次完成：
-
-1. 确认 App Store 当前可下载二进制与官网功能、Free/Pro 权益和购买规则一致。
-2. 确认月度、年度与永久解锁商品在 App Store Connect 真实可售；价格与优惠以 Apple 购买面板为准。
-3. 同步更新 App 内 `Info.plist`、App Store Connect、发布资料和 README 中的法律 URL。
-4. 决定 `/awaking/` 的语言路由：中文 canonical、语言选择页或显式重定向。
-5. 保留旧 URL 的兼容跳转，避免已安装版本出现断链。
-6. 部署后逐页验证中文、英文、移动端、桌面端、外链和法律互跳。
-
-## 内容事实边界
-
-官网文案必须服从当前公开版本和代码真实入口：
-
-- 品牌名统一使用 `Awaking`；`Awakening` 仅可作为内部工程名。
-- 不宣传尚未公开的 Range、Text、Beauty、Materials 或普通入口不存在的能力。
-- 不把相机导入写成当前能力，除非真实入口、权限和设备验收均已完成。
-- 标准 JPEG 导出可表述为无品牌水印；Pro 权益须与 StoreKit 和实际购买面板一致。
-- “本地处理”应写成不自动上传到开发者服务器，不能排除用户主动系统分享或 Apple Photos/iCloud 取回。
-- 回忆流只能承诺浏览本身不改变系统相册；保存、分享或删除仍由用户主动确认。
-- App Store 最新版本可以动态展示，但查询失败时必须保留明确、不过时的静态下载状态。
-
-## 隐私与法律页面
-
-隐私政策需分别说明三类场景：
-
-1. App 内照片、编辑、导出与本地诊断。
-2. 用户主动发送的支持邮件和诊断包。
-3. GitHub Pages 托管产生的服务端访问日志。
-
-正式公开前还需由产品所有者补齐并确认真实服务提供者/个人信息处理者名称、适用的联系信息以及支持邮件和附件的实际保留规则；不要在仓库中猜测法律主体。
-
-## 本地预览与检查
-
-在仓库根目录启动临时静态服务器：
+在仓库根目录运行以下命令，然后打开本地的 [中文首页](http://127.0.0.1:8765/awaking/zh/) 或 [英文首页](http://127.0.0.1:8765/awaking/en/)。
 
 ```bash
-python3 -m http.server 8765
+python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-然后访问：
+```bash
+node --test tests/*.test.cjs
+git diff --check
+```
 
-- `http://127.0.0.1:8765/awaking/zh/`
-- `http://127.0.0.1:8765/awaking/en/`
+提交前检查双语链接、指南锚点、窄屏和短窗口下的操作区，以及键盘能否操作菜单与照片对比。视觉与证据边界见 [官网设计说明](DESIGN.md)。[产品说明](PRODUCT.md) · [既往视觉验收](design-qa.md)
 
-提交前至少检查：
-
-- 8 个双语页面的本地链接、图片、页内锚点和语言互跳。
-- 320、390、820、1180 像素宽度，以及短横屏下无横向溢出或裁切。
-- 移动菜单、键盘焦点、Skip Link、44×44pt 触控热区和 Reduce Motion。
-- 中英文素材没有串用，海报保持比例且不使用 `object-fit: cover` 裁掉文字。
-- `node --check awaking/shared/site.js` 与 `git diff --check` 通过。
-- `node --check awaking/shared/home-v2.js` 和 `node --test tests/home-interactions.test.cjs` 通过。
-- 网页首屏加载优化资源；不要把约 28–29 MB 的源 PNG 直接部署为首屏资源。
-
-## 发布方式
-
-GitHub Pages 从 `master` 分支仓库根目录发布。创建本地提交不会自动公开页面；只有推送到远端并完成 Pages 部署后，线上内容才会更新。
-
-支持邮箱：`yangkj310@gmail.com`
-
-## 照惜双语搜索内容（2026-10-26）
-
-维护：Condy。仅涉及 `zhaoxi/`；保留现有中文和英文视觉样式，不改变其他产品页面。
-
-- 中文品牌照惜与英文品牌 Mementide 共用 App ID `6792201710`，双语首页的 `SoftwareApplication` 共用 `https://yangkj.github.io/awaking-legal/zhaoxi/#app`。
-- 三组双语指南位于 `zhaoxi/{zh,en}/guides/`：`similar-or-duplicate`、`choose-travel-photos`、`rediscover-memories`。它们是使用说明，不是假造的用户案例、独立评测或视觉验收结论。
-- 首页提供指南入口；每篇有独立标题、描述、canonical、对应语言链接和相关文章；`zhaoxi/sitemap.xml` 列出 14 个正式候选 URL，没有捏造评分、安装量或静态地区价格。
-- 当前读取到的可分发版本为 1.1.1（14），1.1.2 尚未关联 Build。新版免费范围明确标注为 1.1.2 计划，不表示已经公开提供；实际能力以已安装版本为准。
-- 站点地图需在 Pages 部署完成后，由有权限的账号提交到对应站长平台；本地完成不证明线上可访问、已收录或已有 AI 引用。
-- 项目 Pages 无法通过 `/awaking-legal/robots.txt` 控制域名根路径的抓取规则；本轮不创建误导性的 robots 文件。
-- 本地检查覆盖 HTML 结构、结构化数据、语言互跳、链接／锚点、站点地图与商店字段长度。未运行浏览器视觉验收、读屏或实体设备验证。
-- 按工作区规则只创建本地提交，不由代理 push。用户推送到 `master` 后，须确认 Pages 部署结果，再移除已不适用的版本计划说明。
-
-## 2026-10-09 首页重设计
-
-用户确认摄影主导，随后展示编辑能力。首页顺序调整为海岸主视觉 → 同图真实局部编辑案例 → 风格灵感 → 跨设备展示 → 编辑流程 → 隐私 → 免费 / Pro → 下载。
-
-- 保留黑色品牌基调，蓝紫色集中用于主操作、选中与焦点；使用自托管 Archivo 和 Newsreader，许可证与来源见 `awaking/assets/fonts/README.md`。
-- 案例使用 2026-10-08 的 Awaking 1.2.3 / 29 素材采集构建中的真实编辑和 JPEG 导出。原片是 AI 示例照片；采集构建来自发布期代码重建，不能据此声称是 App Store 分发二进制。页面不公开构建、设备与开发细节。
-- `awaking/assets/site-v3/manifest.json` 记录 6 张新接入素材的来源、输出哈希及尺寸，也记录本次复用的 AI 品牌摄影和设备概念图。概念素材与真实编辑案例在页面上分别标注。
-- 原生滑杆可比较原片与结果，支持键盘；没有 JavaScript 时并排显示两图，并展开编辑过程与设备说明。
-- 两组标签页分别管理选择；设备支持、Free / Pro、支持、法律、下载与语言互跳保留。手机单列，平板按内容重排，桌面使用有界双栏；短窗口可以继续滚动。
-
-本轮只修改双语首页与首页共享资源，没有变更法律正文或其他产品页面。经用户授权，已完成内置浏览器的中英文桌面、手机视觉与交互验收，并补查 320、820、1180、1280px 宽度及短窗口。截图与结果见 `design-qa/2026-10-09/` 和 `design-qa.md`。这属于本地浏览器验收，未覆盖实体设备、读屏或线上部署；没有推送或部署。
+GitHub Pages 从 `master` 分支的仓库根目录发布。维护者推送后，核对公开的中英文首页、支持、隐私、协议及旧链接，再同步 App Store Connect 的公开链接。
